@@ -23,7 +23,7 @@ about:
   enable : true
   image : "images/cooker-img.png"
   title : "Découvrir l'autre par la création de spectacles théâtre et clown, grâce à l'École de «la discipline du jeu»."
-  description : "association de loi 1901 à but non lucratif organisée en collégiale / + de 200 élèves par Jonathan Dupui au cours de ses 10 années de pratique de l'enseignement / depuis 3 ans, avec l'arrivée et son regard anthropologue  d'Anne Lucie Dumay, ils développent l'Ecole de la Discipline du Jeu"
+  description : "association de loi 1901 à but non lucratif organisée en collégiale / + de 200 élèves par Jonathan Dupui (lien vers Bio de Jo) au cours de ses 10 années de pratique de l'enseignement / depuis 3 ans, avec l'arrivée et son regard anthropologue  d'Anne Lucie Dumay (lien vers biuo d'Anne Lu), ils développent l'Ecole de la Discipline du Jeu// Aujourd'hui une equipe d'eleves, d'amis et de curieux se rencontrent au sein de la vie associative de TeDua (lien vers equipe teDua)"
   
 ################# Blog ######################
 blog:
@@ -72,8 +72,8 @@ pricing:
 subscription:
   enable : true
   bg_image : "images/subscribe-bg.jpg"
-  title : "Recevez le calendrier des Spectacles et des Évènements"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  title : "Calendrier des Spectacles et des Évènements"
+  description : "Pour la saison 202-2021, 3 spectacles (2 troupes pros et 1 troupe amateur) sont diffusés: solo du clown Zoro Zoraï (lien vers site), le clown et la fée (lien vers site), les nouveaux gouverneurs (lien vers page web, incluant teaser video). Tout au long de l'année, des collaborations avce des organisations socio-culturelles émergent autour de la question du vivre ensemble (Douves It avec la Halle des Douves, Quinzaine de l'Egalité avec le Planning Familial). POur plus d'informations sur ces rencontres, écrire à Anne Lucie Dumay (diffusion@association-tedua.fr , 0615609704)."
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
