@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Restaurant Theme By Themefisher"
+title = "TeDua veut dire «je t'aime»."
 theme = "restaurant-hugo"
 summaryLength = "7"
 paginate = 6
@@ -41,33 +41,33 @@ URL = "js/main.js"
 ############################## navigation ###############################
 
 [[menu.main]]
-name = "Home"
+name = "Accueil"
 URL = "hero-area"
 weight = 1
 
 [[menu.main]]
-name = "About Us"
+name = "Édito"
 URL = "about-us"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
+name = "News"
 URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Price"
+name = "Ecole (2020/2021)"
 URL = "price"
 weight = 4
 
 [[menu.main]]
-name = "News"
+name = "Spectacles"
 URL = "subscribe"
 weight = 5
 
 [[menu.main]]
-name = "Contact Us"
-URL = "contact-us"
+name = "Contact"
+URL = "footer"
 weight = 6
 
 
@@ -75,12 +75,12 @@ weight = 6
 [params]
 logo = "images/logo.png"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "TeDua"
+description = "Site web de l'association de pratique de la discipline du jeu (théâtre,clown) TeDua."
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
+copyright = "Copyleft 2020 - Habib Belaribi - theme: Themefisher.com"
 
 # Preloader
 [params.preloader]
@@ -90,26 +90,25 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>INFO</span> "
-blogTitle = "LATEST <span>BLOG POSTS</span>"
-galleryTitle = "PHOTO <span>STREAM</span>"
-socialTitle = "Follow <span>US</span>"
+contactInfoTitle = "CONTACT : "
+blogTitle = "NEWS :"
+galleryTitle = "IMAGES : "
+socialTitle = "ACTIVITÉS et VIE ASSOCIATIVE : "
 
 ############################ footer contact item
 [[params.footer.contactItem]]
-title="Telephone"
+title="Téléphone"
 icon = "fa fa-phone"
-content = "016742 323313"
-
+content = "06 15 60 97 04 (Anne Lucie Dumay)"
 [[params.footer.contactItem]]
-title="Address"
+title="Adresse"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "50 rue du Mirail 33000 Bordeaux"
 
 [[params.footer.contactItem]]
-title="E mail"
+title="Email"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "ecole@association-tedua.fr ou diffusion@association-tedua.fr"
 
 ######################### footer gallery
 [[params.footer.gallery]]
@@ -133,16 +132,12 @@ image = "images/slider/slider-img-2.jpg"
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
+link = "https://www.facebook.com/groups/386241745191819/"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
+link = "https://www.instagram.com/anneluciedumay/?hl=en"
+
+#[[params.footer.socialLink]]
+#icon = "twitter"
+#link = "https://twitter.com/habsinn"

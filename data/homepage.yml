@@ -7,7 +7,7 @@ hero_area:
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "FEATURED WORKS"
+  title : " "
   images:
     - "images/slider/slider-img-1.jpg"
     - "images/slider/slider-img-2.jpg"
@@ -22,13 +22,13 @@ gallery:
 about:
   enable : true
   image : "images/cooker-img.png"
-  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  title : "Découvrir l'autre par la création de spectacles théâtre et clown, grâce à l'École de «la discipline du jeu»."
+  description : "association de loi 1901 à but non lucratif organisée en collégiale / + de 200 élèves par Jonathan Dupui au cours de ses 10 années de pratique de l'enseignement / depuis 3 ans, avec l'arrivée et son regard anthropologue  d'Anne Lucie Dumay, ils développent l'Ecole de la Discipline du Jeu"
   
 ################# Blog ######################
 blog:
   enable : true
-  title : "Our Latest <span>Blog</span>"
+  title : "News"
   bg_image : "images/blog/blog-bg.jpg"
   overlay : true
 
@@ -36,35 +36,43 @@ blog:
 ################# food Menu ################
 pricing:
   enable : true
-  title : "Our Easy <span>PRICE</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "FEATURED ON THE WEEK"
+  title : "École (2020/2021)"
+  description: " blablabliblou sur l'Ecole + prix (appeler Anne Lucie en cas de difficultés financières)"
+  subtitle : ""
   pricing_item:
-  - title: "Pancakes n' Such Titas"
+  - title: "Stages mensuels de pratique du Clown"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
+    price : "100 euros/stage"
 
-  - title: "Caesar Salad"
+  - title: "Cours hebdomadaires 'Découverte' (clown, théâtre: 2H/semaine)"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
+    price : "350 euros/an"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
+  - title: "Cours hebdomadaires 'Dépassement' (clown: 3H/semaine)"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
+    price : "500 euros/an"
 
-  - title: "Meat of Skewers"
+  - title: "Parcours 'Immersion totale'"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
+    price : "3 000 euros"
 
-  - title: "Pancakes n' Such"
+  - title: "Abonnement 5 spectacles (Saison 2020/2021)"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 25.00"
+    price : "50 euros"
+
+  - title: "Évènements et activités (tous publics)"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "prix libre"
+
+  - title: "Collaborations"
+    description: "artistiques, socio-culturelles et technologiques / ex: Planning Familial / Douves It"
+    price : "prix libre"
 
 ################### Subscription ################
 subscription:
   enable : true
   bg_image : "images/subscribe-bg.jpg"
-  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  title : "Recevez le calendrier des Spectacles et des Évènements"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
@@ -72,8 +80,8 @@ subscription:
   overlay : true
 
 ################ Contact #######################
-contact:
-  enable : true
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
-  form_action : "#" #contact form works with formspree.io
+#contact:
+#enable : true
+#title: "Let's <span> Contact Us </span>"
+#subtitle: "SIGN UP FOR EMAIL ALERTS"
+#form_action : "#" #contact form works with formspree.io
