@@ -56,7 +56,7 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Ecole (2020/2021)"
+name = "École (2020/2021)"
 URL = "price"
 weight = 4
 

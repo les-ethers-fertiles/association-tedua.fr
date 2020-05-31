@@ -22,8 +22,8 @@ gallery:
 about:
   enable : true
   image : "images/cooker-img.png"
-  title : "Découvrir l'autre par la création de spectacles théâtre et clown, grâce à l'École de «la discipline du jeu»."
-  description : "association de loi 1901 à but non lucratif organisée en collégiale / + de 200 élèves par Jonathan Dupui (lien vers Bio de Jo) au cours de ses 10 années de pratique de l'enseignement / depuis 3 ans, avec l'arrivée et son regard anthropologue  d'Anne Lucie Dumay (lien vers biuo d'Anne Lu), ils développent l'Ecole de la Discipline du Jeu// Aujourd'hui une equipe d'eleves, d'amis et de curieux se rencontrent au sein de la vie associative de TeDua (lien vers equipe teDua)"
+  title : "Découvrir l'autre par la création de spectacles théâtre et clown, grâce à l'École de la Discipline du Jeu."
+  description : "association de loi 1901 à but non lucratif organisée en collégiale / + de 200 élèves par Jonathan Dupui (lien vers Bio de Jo) au cours de ses 10 années de pratique de l'enseignement / depuis 3 ans, avec l'arrivée et son regard anthropologue  d'Anne Lucie Dumay (lien vers bio d'Anne Lu), ils développent l'Ecole de la Discipline du Jeu// Aujourd'hui une equipe d'eleves, d'amis et de curieux se rencontrent au sein de la vie associative de TeDua (lien vers equipe teDua)"
   
 ################# Blog ######################
 blog:
@@ -38,7 +38,7 @@ pricing:
   enable : true
   title : "École (2020/2021)"
   description: " blablabliblou sur l'Ecole + prix (appeler Anne Lucie en cas de difficultés financières)"
-  subtitle : ""
+  subtitle : "Grille tarifaire : "
   pricing_item:
   - title: "Stages mensuels de pratique du Clown"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
@@ -56,24 +56,24 @@ pricing:
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
     price : "3 000 euros"
 
-  - title: "Abonnement 5 spectacles (Saison 2020/2021)"
+  - title: "Abonnement 5 Spectacles (Saison 2020/2021)"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
     price : "50 euros"
 
-  - title: "Évènements et activités (tous publics)"
+  - title: "Évènements et Activités (tous publics)"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "prix libre"
+    price : "gratuit ou prix libre"
 
-  - title: "Collaborations"
+  - title: "Collaborations (projets et montages socio-culturels)"
     description: "artistiques, socio-culturelles et technologiques / ex: Planning Familial / Douves It"
-    price : "prix libre"
+    price : "selon termes du contrat"
 
 ################### Subscription ################
 subscription:
   enable : true
   bg_image : "images/subscribe-bg.jpg"
-  title : "Calendrier des Spectacles et des Évènements"
-  description : "Pour la saison 202-2021, 3 spectacles (2 troupes pros et 1 troupe amateur) sont diffusés: solo du clown Zoro Zoraï (lien vers site), le clown et la fée (lien vers site), les nouveaux gouverneurs (lien vers page web, incluant teaser video). Tout au long de l'année, des collaborations avce des organisations socio-culturelles émergent autour de la question du vivre ensemble (Douves It avec la Halle des Douves, Quinzaine de l'Egalité avec le Planning Familial). POur plus d'informations sur ces rencontres, écrire à Anne Lucie Dumay (diffusion@association-tedua.fr , 0615609704)."
+  title : "Spectacles et des Évènements"
+  description : "Pour la saison 202-2021, 3 spectacles (2 troupes pros et 1 troupe amateur) sont diffusés: sCalendrier et billetterie pour: le solo du Clown Z0R0 ZORAï (lien vers site), Le Clown et la Fée (lien vers site), Les Nouveaux Gouverneurs (lien vers page web, incluant teaser video). Tout au long de l'année, des collaborations avec des organisations socio-culturelles émergent autour de la question du vivre ensemble (Douves It avec la Halle des Douves, Quinzaine de l'Égalité avec le Planning Familial). Pour plus d'informations sur ces rencontres, écrire à Anne Lucie Dumay (diffusion@association-tedua.fr , 06 15 60 97 04)."
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
