@@ -112,22 +112,22 @@ content = "ecole@association-tedua.fr ou diffusion@association-tedua.fr"
 
 ######################### footer gallery
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+image = "images/slider/Petites-accueil-2.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/Petites-accueil-1.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
+image = "images/slider/Petites-accueil-4.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
+image = "images/slider/Petites-accueil-11.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+image = "images/slider/Petites-accueil-6.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/Petites-accueil-7.png"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]

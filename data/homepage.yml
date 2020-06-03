@@ -9,27 +9,31 @@ gallery:
   enable : true
   title : " "
   images:
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
+    - "images/slider/Petites-accueil-1.png"
+    - "images/slider/Petites-accueil-2.png"
+    - "images/slider/Petites-accueil-3.png"
+    - "images/slider/Petites-accueil-4.png"
+    - "images/slider/Petites-accueil-5.png"
+    - "images/slider/Petites-accueil-6.png"
+    - "images/slider/Petites-accueil-7.png"
+    - "images/slider/Petites-accueil-8.png"
+    - "images/slider/Petites-accueil-9.png"
+    - "images/slider/Petites-accueil-10.png"
+    - "images/slider/Petites-accueil-11.png"
+
 
 ################ About #######################
 about:
   enable : true
-  image : "images/cooker-img.png"
-  title : "Découvrir l'autre par la création de spectacles théâtre et clown, grâce à l'École de la Discipline du Jeu."
-  description : "association de loi 1901 à but non lucratif organisée en collégiale / + de 200 élèves par Jonathan Dupui (lien vers Bio de Jo) au cours de ses 10 années de pratique de l'enseignement / depuis 3 ans, avec l'arrivée et son regard anthropologue  d'Anne Lucie Dumay (lien vers bio d'Anne Lu), ils développent l'Ecole de la Discipline du Jeu// Aujourd'hui une equipe d'eleves, d'amis et de curieux se rencontrent au sein de la vie associative de TeDua (lien vers equipe teDua)"
+  image : "images/logo.png"
+  title : "'Découvrir l'autre par la création de spectacles théâtre et clown, et via la discipline du jeu au sein de l'École TeDua.'"
+  description : "TeDua s’est mise à exister à partir du moment où des personnes souhaitant découvrir le Jeu ont coopéré ensemble pour que cela leur soit possible. Association de loi 1901 à but non lucratif, elle est organisée en Collégiale depuis sa création en 2017. Née de la rencontre entre [Jonathan Dupui](https://awesome-jones-015167.netlify.app/activites-creations/annonces/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/) enseignant du théâtre puis de clown depuis 11 ans auprès de plus de 200 élèves, et Anne Lucie Dumay (lien vers bio d’Anne Lu), anthropologue, qui développent l’École TeDua autour de la discipline du jeu, accompagnés d'une équipe d’élèves, d’amis et de curieux qui se rencontrent [au sein de la vie associative](https://awesome-jones-015167.netlify.app/activites-creations/)"
   
 ################# Blog ######################
 blog:
   enable : true
   title : "News"
-  bg_image : "images/blog/blog-bg.jpg"
+  bg_image : "images/News-Vie-asso-Jeu-Cours.png"
   overlay : true
 
 
@@ -52,7 +56,7 @@ pricing:
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
     price : "500 euros/an"
 
-  - title: "Parcours 'Immersion totale'"
+  - title: "Parcours 'Immersion'"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
     price : "3 000 euros"
 
@@ -71,7 +75,7 @@ pricing:
 ################### Subscription ################
 subscription:
   enable : true
-  bg_image : "images/subscribe-bg.jpg"
+  bg_image : "images/Siteweb-2-Spectacles.png"
   title : "Spectacles et des Évènements"
   description : "Pour la saison 202-2021, 3 spectacles (2 troupes pros et 1 troupe amateur) sont diffusés: sCalendrier et billetterie pour: le solo du Clown Z0R0 ZORAï (lien vers site), Le Clown et la Fée (lien vers site), Les Nouveaux Gouverneurs (lien vers page web, incluant teaser video). Tout au long de l'année, des collaborations avec des organisations socio-culturelles émergent autour de la question du vivre ensemble (Douves It avec la Halle des Douves, Quinzaine de l'Égalité avec le Planning Familial). Pour plus d'informations sur ces rencontres, écrire à Anne Lucie Dumay (diffusion@association-tedua.fr , 06 15 60 97 04)."
   #Mailchimp subscription configaration 
