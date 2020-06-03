@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 languageCode = "en-us"
-title = "TeDua veut dire «je t'aime»."
+title = "la Discipline du Jeu"
 theme = "restaurant-hugo"
 summaryLength = "7"
 paginate = 6

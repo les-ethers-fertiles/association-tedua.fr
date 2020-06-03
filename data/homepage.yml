@@ -27,7 +27,7 @@ about:
   enable : true
   image : "images/logo.png"
   title : "'Découvrir l'autre par la création de spectacles théâtre et clown, et via la discipline du jeu au sein de l'École TeDua.'"
-  description : "TeDua s’est mise à exister à partir du moment où des personnes souhaitant découvrir le Jeu ont coopéré ensemble pour que cela leur soit possible. Association de loi 1901 à but non lucratif, elle est organisée en Collégiale depuis sa création en 2017. Née de la rencontre entre [Jonathan Dupui](https://awesome-jones-015167.netlify.app/activites-creations/annonces/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/) enseignant du théâtre puis de clown depuis 11 ans auprès de plus de 200 élèves, et Anne Lucie Dumay (lien vers bio d’Anne Lu), anthropologue, qui développent l’École TeDua autour de la discipline du jeu, accompagnés d'une équipe d’élèves, d’amis et de curieux qui se rencontrent [au sein de la vie associative](https://awesome-jones-015167.netlify.app/activites-creations/)"
+  description : "TeDua s’est mise à exister à partir du moment où des personnes souhaitant découvrir le Jeu ont coopéré ensemble pour que cela leur soit possible. Association de loi 1901 à but non lucratif, elle est organisée en Collégiale depuis sa création en 2017. Née de la rencontre entre [Jonathan Dupui](https://blog.association-tedua.fr/activites-creations/annonces/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/) enseignant du théâtre puis de clown depuis 11 ans auprès de plus de 200 élèves, et [Anne Lucie Dumay](https://www.instagram.com/anneluciedumay/?hl=en), anthropologue, qui développent l’École TeDua autour de la discipline du jeu, accompagnés d'une équipe d’élèves, d’amis et de curieux qui se rencontrent [au sein de la vie associative](https://blog.association-tedua.fr)"
   
 ################# Blog ######################
 blog:
@@ -41,35 +41,35 @@ blog:
 pricing:
   enable : true
   title : "École (2020/2021)"
-  description: " blablabliblou sur l'Ecole + prix (appeler Anne Lucie en cas de difficultés financières)"
+  description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la “discipline du jeu” que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Ainsi, d’apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir d’autres peaux ou d’autres poils.'* - Jonathan Dupui, enseignant"
   subtitle : "Grille tarifaire : "
   pricing_item:
   - title: "Stages mensuels de pratique du Clown"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "100 euros/stage"
+    description: "1 Week-End par mois, 16 heures de pratique du clown pour approfondir le jeu improvisé, et découvrir ensemble tous les trajets émotionnels."
+    price : "100€ 'Amateurs tous niveaux' // 200€ 'Comédiens pros'"
 
   - title: "Cours hebdomadaires 'Découverte' (clown, théâtre: 2H/semaine)"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "350 euros/an"
+    description: "2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneaux : lundi 18h-20h ou 20h15-22h15, mercredi 18h-20h."
+    price : "350 €/an (séance d'essai: 10€)"
 
   - title: "Cours hebdomadaires 'Dépassement' (clown: 3H/semaine)"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "500 euros/an"
+    description: "3H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneau: mercredi 20h15-23h15."
+    price : "500€/an (séance d'essai: 10€)"
 
   - title: "Parcours 'Immersion'"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "3 000 euros"
+    description: "3H/semaine 'Dépassement'(hors vacances scolaires), 10 stages mensuels d'un weekend, 4H/cours particuliers/trimestre. Accompagnement individuel: aides administratives, composer avec sa vie professionnelle ou estudiantine, communiquer ses créations artistiques avec les technologies numériques."
+    price : "le prix sera publié mi-juin"
 
-  - title: "Abonnement 5 Spectacles (Saison 2020/2021)"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "50 euros"
+  - title: "Abonnement 3 Spectacles (Saison 2020/2021)"
+    description: "TeDua proposera en moyenne 1 spectacle par mois à Bordeaux tout au long de la saison 2020/2021. "
+    price : "30€ Adultes // 15€ Enfants"
 
   - title: "Évènements et Activités (tous publics)"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "gratuit ou prix libre"
+    description: "Visiter le journal de bord de l'association (blog.association-tedua.fr)"
+    price : "gratuit ou don"
 
-  - title: "Collaborations (projets et montages socio-culturels)"
-    description: "artistiques, socio-culturelles et technologiques / ex: Planning Familial / Douves It"
+  - title: "Collaborations (projets socio-culturels, facilitation en entreprise)"
+    description: "Quelques exemples avec  Planning Familial, Douves It, Semaest, Co-Actions."
     price : "selon termes du contrat"
 
 ################### Subscription ################
