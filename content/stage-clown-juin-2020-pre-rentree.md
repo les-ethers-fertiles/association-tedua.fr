@@ -1,5 +1,5 @@
 ---
-title: "Stage Clown - préRentrée 2020/2021"
+title: "Stage Clown 27&28 juin (pré-rentrée 2020/2021)"
 date: 2020-06-03T04:28:21+06:00
 image: images/blog/stage-clown-juin-202-pre-rentree.png
 description: ""

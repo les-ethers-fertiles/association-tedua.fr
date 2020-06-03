@@ -20,13 +20,14 @@ gallery:
     - "images/slider/Petites-accueil-9.png"
     - "images/slider/Petites-accueil-10.png"
     - "images/slider/Petites-accueil-11.png"
+    - "images/slider/Petites-accueil-12.png"
 
 
 ################ About #######################
 about:
   enable : true
-  image : "images/logo.png"
-  title : "'Découvrir l'autre par la création de spectacles théâtre et clown, et via la discipline du jeu au sein de l'École TeDua.'"
+  image : "images/logo2.png"
+  title : "'Découvrir l'autre par la création de spectacles théâtre et clown, et la discipline du jeu au sein de l'École TeDua.'"
   description : "TeDua s’est mise à exister à partir du moment où des personnes souhaitant découvrir le Jeu ont coopéré ensemble pour que cela leur soit possible. Association de loi 1901 à but non lucratif, elle est organisée en Collégiale depuis sa création en 2017. Née de la rencontre entre [Jonathan Dupui](https://blog.association-tedua.fr/activites-creations/annonces/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/) enseignant du théâtre puis de clown depuis 11 ans auprès de plus de 200 élèves, et [Anne Lucie Dumay](https://www.instagram.com/anneluciedumay/?hl=en), anthropologue, qui développent l’École TeDua autour de la discipline du jeu, accompagnés d'une équipe d’élèves, d’amis et de curieux qui se rencontrent [au sein de la vie associative](https://blog.association-tedua.fr)"
   
 ################# Blog ######################
@@ -35,49 +36,49 @@ blog:
   title : "News"
   bg_image : "images/News-Vie-asso-Jeu-Cours.png"
   overlay : true
-
+  links:
+   - link: "https://blog.association-tedua.fr"
 
 ################# food Menu ################
 pricing:
   enable : true
   title : "École (2020/2021)"
   description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la “discipline du jeu” que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Ainsi, d’apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir d’autres peaux ou d’autres poils.'* - Jonathan Dupui, enseignant"
+  
   subtitle : "Grille tarifaire : "
   pricing_item:
-  - title: "Stages mensuels de pratique du Clown"
-    description: "1 Week-End par mois, 16 heures de pratique du clown pour approfondir le jeu improvisé, et découvrir ensemble tous les trajets émotionnels."
-    price : "100€ 'Amateurs tous niveaux' // 200€ 'Comédiens pros'"
+  - title: "Stages mensuels de pratique du Clown 'Amateurs tous niveaux'"
+    description: "1 Week-End par mois, 16 heures de pratique du clown pour découvrir ou approfondir le jeu improvisé, et découvrir ensemble tous les trajets émotionnels. 12 participants maximum."
+    price : "100€/stage"
 
-  - title: "Cours hebdomadaires 'Découverte' (clown, théâtre: 2H/semaine)"
-    description: "2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneaux : lundi 18h-20h ou 20h15-22h15, mercredi 18h-20h."
-    price : "350 €/an (séance d'essai: 10€)"
+  - title: "Stages trimestriels de pratique du Clown 'Comédiens pros'"
+    description: "1 Week-End par mois, 16 heures de pratique du clown pour traiter les questions du 'dépassement de soi' et du fameux 'travail sans fin de la technique'. 8 participants maximum."
+    price : "200€/stage"
+
+  - title: "Séance hebdomadaire ‘Jouer pour soi’ (pratique du jeu)"
+    description: "2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneau : Pas de représentation en fin d’année / Pas de création de spectacle en fin d’année. Une approche plus thérapeutique permettant l’expression et l’exploration des émotions par la pratique du jeu. Les lundis de 18h à 20h (hors vacances scolaires); 8 participants maximum. "
+    price : "350€/an (adhésion incluse)"
+
+  - title: "Cours hebdomadaires 'Exploration' (clown, théâtre: 2H/semaine)"
+    description: "2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021, pour les amateurs de théâtres ou de clown qui souhaitent explorer des trajets émotionnels. Les lundis (20h15-22h15)ou les mercredis (18h-20h); 8 participants/atelier maximum."
+    price : "350 €/an (adhésion incluse)"
 
   - title: "Cours hebdomadaires 'Dépassement' (clown: 3H/semaine)"
-    description: "3H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneau: mercredi 20h15-23h15."
-    price : "500€/an (séance d'essai: 10€)"
+    description: "3H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneau: les mercredis (20h15-23h15), 10 participants maximum."
+    price : "500€/an (adhésion incluse)"
 
   - title: "Parcours 'Immersion'"
     description: "3H/semaine 'Dépassement'(hors vacances scolaires), 10 stages mensuels d'un weekend, 4H/cours particuliers/trimestre. Accompagnement individuel: aides administratives, composer avec sa vie professionnelle ou estudiantine, communiquer ses créations artistiques avec les technologies numériques."
-    price : "le prix sera publié mi-juin"
+    price : "le prix sera publié juin"
 
-  - title: "Abonnement 3 Spectacles (Saison 2020/2021)"
-    description: "TeDua proposera en moyenne 1 spectacle par mois à Bordeaux tout au long de la saison 2020/2021. "
-    price : "30€ Adultes // 15€ Enfants"
 
-  - title: "Évènements et Activités (tous publics)"
-    description: "Visiter le journal de bord de l'association (blog.association-tedua.fr)"
-    price : "gratuit ou don"
-
-  - title: "Collaborations (projets socio-culturels, facilitation en entreprise)"
-    description: "Quelques exemples avec  Planning Familial, Douves It, Semaest, Co-Actions."
-    price : "selon termes du contrat"
 
 ################### Subscription ################
 subscription:
   enable : true
   bg_image : "images/Siteweb-2-Spectacles.png"
-  title : "Spectacles et des Évènements"
-  description : "Pour la saison 202-2021, 3 spectacles (2 troupes pros et 1 troupe amateur) sont diffusés: sCalendrier et billetterie pour: le solo du Clown Z0R0 ZORAï (lien vers site), Le Clown et la Fée (lien vers site), Les Nouveaux Gouverneurs (lien vers page web, incluant teaser video). Tout au long de l'année, des collaborations avec des organisations socio-culturelles émergent autour de la question du vivre ensemble (Douves It avec la Halle des Douves, Quinzaine de l'Égalité avec le Planning Familial). Pour plus d'informations sur ces rencontres, écrire à Anne Lucie Dumay (diffusion@association-tedua.fr , 06 15 60 97 04)."
+  title : "Spectacles"
+  description : "Pour la saison 2020-2021, 3 spectacles (deux formations pros, et une troupe amateure) seront diffusés: le solo de clown [Z0R0 ZORAï](https://blog.association-tedua.fr/activites-creations/spectacles-saison-2019-2020/), [LE CLOWN ET LA FÉE](https://leclownetlafee.fr) et [LES NOUVEAUX GOUVERNEURS](https://blog.association-tedua.fr/activites-creations/spectacles-saison-2019-2020/). Pour plus d'informations sur la diffusion, écrire à Habib Belaribi et à Anne Lucie Dumay (diffusion@association-tedua.fr , 07 82 43 20 68)."
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
