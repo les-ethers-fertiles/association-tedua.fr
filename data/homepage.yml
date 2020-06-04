@@ -36,8 +36,6 @@ blog:
   title : "News"
   bg_image : "images/News-Vie-asso-Jeu-Cours.png"
   overlay : true
-  links:
-   - link: "https://blog.association-tedua.fr"
 
 ################# food Menu ################
 pricing:
