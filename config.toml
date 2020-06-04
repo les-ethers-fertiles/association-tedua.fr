@@ -103,7 +103,7 @@ content = "06 15 60 97 04 (Anne Lucie Dumay)"
 [[params.footer.contactItem]]
 title="Adresse"
 icon = "fa fa-map-marker"
-content = "50 rue du Mirail 33000 Bordeaux"
+content = "Cours & Stages : 50 rue du Mirail 33000 | Siège social : Bordeaux"
 
 [[params.footer.contactItem]]
 title="Email"
