@@ -34,7 +34,7 @@ about:
 blog:
   enable : true
   title : "News"
-  bg_image : "images/News-Vie-asso-Jeu-Cours.png"
+  bg_image : "images/News-Vie-asso-Jeu-Cours.jpg"
   overlay : true
 
 ################# food Menu ################
@@ -74,7 +74,7 @@ pricing:
 ################### Subscription ################
 subscription:
   enable : true
-  bg_image : "images/Siteweb-2-Spectacles.png"
+  bg_image : "images/Siteweb-2-Spectacles.jpg"
   title : "Spectacles"
   description : "Pour la saison 2020-2021, 3 spectacles (deux formations pros, et une troupe amateure) seront diffusés: le solo de clown [Z0R0 ZORAï](https://blog.association-tedua.fr/activites-creations/spectacles-saison-2019-2020/), [LE CLOWN ET LA FÉE](https://leclownetlafee.fr) et [LES NOUVEAUX GOUVERNEURS](https://blog.association-tedua.fr/activites-creations/spectacles-saison-2019-2020/). Pour plus d'informations sur la diffusion, écrire à Habib Belaribi et à Anne Lucie Dumay (diffusion@association-tedua.fr , 07 82 43 20 68)."
   #Mailchimp subscription configaration 
