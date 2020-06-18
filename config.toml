@@ -41,32 +41,32 @@ URL = "js/main.js"
 ############################## navigation ###############################
 
 [[menu.main]]
-name = "Accueil"
+name = "|Accueil|"
 URL = "hero-area"
 weight = 1
 
 [[menu.main]]
-name = "Édito"
+name = "|Édito|"
 URL = "about-us"
 weight = 2
 
 [[menu.main]]
-name = "News"
+name = "|Blog|"
 URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "École (2020/2021)"
+name = "|École 2020/2021|"
 URL = "price"
 weight = 4
 
 [[menu.main]]
-name = "Spectacles"
+name = "|Spectacles|"
 URL = "subscribe"
 weight = 5
 
 [[menu.main]]
-name = "Contact"
+name = "|Contact|"
 URL = "footer"
 weight = 6
 
@@ -91,9 +91,9 @@ preloader = "" # use .png , .svg or .gif format
 [params.footer]
 enable = true
 contactInfoTitle = "CONTACT : "
-blogTitle = "NEWS :"
+blogTitle = "BLOG :"
 galleryTitle = "IMAGES : "
-socialTitle = "ACTIVITÉS et VIE ASSOCIATIVE : "
+socialTitle = "MÉDIAS SOCIAUX : "
 
 ############################ footer contact item
 [[params.footer.contactItem]]
