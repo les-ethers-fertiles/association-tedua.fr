@@ -40,24 +40,35 @@ blog:
   blogposts :
      - image : "/images/blog/nouvelle-collegiale-mai-2020.jpg"
        bloglink : "https://blog.association-tedua.fr/accueil/stage-clown-27-28-juin-2020-pre-rentree/"
-       title : "WEEKEND STAGE CLOWN| 27&28 Juin 2020"
+       title : "STAGE CLOWN | Weekend 27&28 Juin 2020"
        summary : "Deux jours pour pratiquer le jeu de clown (8 places, débutants à avancés)."
+
+     - image : "/images/blog/accueil.jpg"
+       bloglink : "https://www.zorozorai.land"
+       title : "LE SITE WEB DE ZORO ZORAI EST EN LIGNE.."
+       summary : ""
 
      - image : "/images/blog/stage-clown-juin-202-pre-rentree.png"
        bloglink : "https://blog.association-tedua.fr/accueil/nouvelle-collegiale-mai-2020/"
        title : "LA NOUVELLE COLLÉGIALE | Mai 2020"
-       summary : "Aude, Dominique, Éric, Frédéric, Gweltaz et Julie ont rejoint le conseil d'administration de l'association."
+       summary : "Aude, Dominique, Éric, Frédéric, Gweltaz et Julie ont rejoint le CA."
 
      - image : "/images/blog/bio-jonathan.jpg"
        bloglink : "https://blog.association-tedua.fr/accueil/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/"
        title : "JONATHAN DUPUI [bio]"
        summary : "Enseignant, auteur, metteur en scène, comédien de la pratique du jeu de Théâtre-Clown."
 
+     - image : "/images/blog/confinement.jpg"
+       bloglink : "https://blog.association-tedua.fr/accueil/premier-travaux-du-confinement-avril-2020/"
+       title : "PREMIERS TRAVAUX DE CONFINEMENT | Avril 2020"
+       summary : "Point de vue : Anne Lucie raconte.."
+
+    
 ################# food Menu ################
 pricing:
   enable : true
   title : "École (2020/2021)"
-  description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la “discipline du jeu” que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Ainsi, d’apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir d’autres peaux ou d’autres poils.'* - Jonathan Dupui, enseignant"
+  description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la “discipline du jeu” que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Ainsi, d’apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir «d’autres peaux ou d’autres poils» .'* -- Jonathan Dupui | enseignant, auteur, metteur en scène et comédien"
   
   subtitle : "Grille tarifaire : "
   pricing_item:
@@ -92,7 +103,7 @@ subscription:
   enable : true
   bg_image : "images/Siteweb-2-Spectacles.jpg"
   title : "Spectacles"
-  description : "Pour la saison 2020-2021, 3 spectacles (deux formations pros, et une troupe amateure) seront diffusés: le solo de clown [Z0R0 ZORAï](https://zorozorai.land), [LE CLOWN ET LA FÉE](https://leclownetlafee.fr) et [LES NOUVEAUX GOUVERNEURS](https://blog.association-tedua.fr/spectacles-saison-2019-2020/). Pour plus d'informations sur la diffusion, écrire à Habib Belaribi et à Anne Lucie Dumay (diffusion@association-tedua.fr , 07 82 43 20 68)."
+  description : 
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"

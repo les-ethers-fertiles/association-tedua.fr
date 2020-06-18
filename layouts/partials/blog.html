@@ -7,8 +7,6 @@
 				<div class="block">
 					<h1 class="heading">{{ .Site.Data.homepage.blog.title | markdownify }}</h1>
 					<ul>
-						{{ $paginator := .Paginate .Site.RegularPages }}
-						{{ range $paginator.Pages }}
 						{{ range .Site.Data.homepage.blog.blogposts }}
 						<li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
 							<div class="blog-img">
@@ -19,7 +17,6 @@
 								<p>{{ .summary }}</p>
 							</div>
 						</li>
-						{{ end }}
 						{{ end }}
 					</ul>
 				</div>
