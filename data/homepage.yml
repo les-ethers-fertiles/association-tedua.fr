@@ -8,7 +8,7 @@ hero_area:
 gallery:
   enable : true
   title : " "
-  images:
+  images :
     - "images/slider/Petites-accueil-1.png"
     - "images/slider/Petites-accueil-2.png"
     - "images/slider/Petites-accueil-3.png"
@@ -38,17 +38,17 @@ blog:
   overlay : true
 
   blogposts :
-     - image : "/images/blog/nouvelle-collegiale-mai-2020.jpg"
+     - image : "/images/blog/stage-clown-juin-202-pre-rentree.png"
        bloglink : "https://blog.association-tedua.fr/accueil/stage-clown-27-28-juin-2020-pre-rentree/"
        title : "STAGE CLOWN | Weekend 27&28 Juin 2020"
        summary : "Deux jours pour pratiquer le jeu de clown (8 places, débutants à avancés)."
 
      - image : "/images/blog/accueil.jpg"
        bloglink : "https://www.zorozorai.land"
-       title : "LE SITE WEB DE ZORO ZORAI EST EN LIGNE.."
+       title : "'LE SITE WEB DE ZORO ZORAI EST EN LIGNE..' | 10 juin 2020"
        summary : ""
 
-     - image : "/images/blog/stage-clown-juin-202-pre-rentree.png"
+     - image : "/images/blog/nouvelle-collegiale-mai-2020.jpg"
        bloglink : "https://blog.association-tedua.fr/accueil/nouvelle-collegiale-mai-2020/"
        title : "LA NOUVELLE COLLÉGIALE | Mai 2020"
        summary : "Aude, Dominique, Éric, Frédéric, Gweltaz et Julie ont rejoint le CA."
@@ -94,7 +94,7 @@ pricing:
 
   - title: "Parcours 'Immersion'"
     description: "3H/semaine 'Dépassement'(hors vacances scolaires), 10 stages mensuels de 2 jours, 4H/cours particuliers/trimestre. Accompagnement individuel à la demande : aides administratives, composer avec sa vie professionnelle ou estudiantine, communiquer ses créations artistiques avec les technologies numériques."
-    price : "le prix sera communiqué le 28 juin"
+    price : "le prix sera communiqué mi-juillet"
 
 
 
