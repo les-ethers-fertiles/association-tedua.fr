@@ -73,28 +73,28 @@ pricing:
   subtitle : "Grille tarifaire : "
   pricing_item:
   - title: "Stages mensuels de pratique du Clown 'Amateurs tous niveaux'"
-    description: "1 Week-End par mois, 16 heures de pratique du clown pour découvrir ou approfondir le jeu improvisé, et découvrir ensemble tous les trajets émotionnels [12 participants maximum, 2 petits déjeuners inclus, lieu : Bordeaux-centre]"
+    description: "OBJECTIF: pratique du jeu et de tous les trajets émotionnels |  FORMAT: 1 Week-End par mois, 16 heures de pratique du clown pour découvrir ou approfondir le jeu improvisé, et découvrir ensemble tous les trajets émotionnels [12 participants maximum, 2 petits déjeuners inclus, lieu : Bordeaux-centre]"
     price : "100€/stage"
 
   - title: "Stages trimestriels de pratique du Clown 'Comédiens pros'"
-    description: "1 Week-End par mois: 16 heures de pratique du clown pour traiter les questions du 'dépassement de soi' et du fameux 'travail sans fin de la technique' [8 participants maximum, 2 petits déjeuners inclus, lieu : Bordeaux-centre]"
+    description: "OBJECTIF: approfondir la conscience de la nature du public | FORMAT: 1 Week-End par mois incluant 16 heures de pratique du clown pour traiter les questions du 'dépassement de soi' et du fameux 'travail sans fin de la technique' [8 participants maximum, 2 petits déjeuners inclus, lieu : Bordeaux-centre]"
     price : "200€/stage"
 
   - title: "Séance hebdomadaire ‘Jouer pour soi’ (pratique du jeu)"
-    description: "2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021. Créneau : Pas de représentation en fin d’année / Pas de création de spectacle en fin d’année. Une approche plus thérapeutique permettant l’expression et l’exploration des émotions par la pratique du jeu [8 participants maximum, les lundis de 18h à 20h (hors vacances scolaires),  lieu : Bordeaux-centre] "
+    description: "OBJECTIF: expression et exploration des trajets émotionnels par la pratique du jeu dans un cadre intimiste | FORMAT: 2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [8 participants maximum, les lundis de 18h à 20h (hors vacances scolaires),  lieu : Bordeaux-centre] "
     price : "350€/an (adhésion incluse)"
 
   - title: "Cours hebdomadaires 'Découverte-Exploration' (clown, théâtre: 2H/semaine)"
-    description: "2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021, pour les amateurs de théâtres ou de clown qui souhaitent explorer toute la palette des trajets émotionnels || les lundis (20h15-22h15)ou les mercredis (18h-20h); 8 participants/atelier maximum, lieu : Bordeaux-centre]"
+    description: "OBJECTIF: jouer dans un spectacle en fin d'année, et élargir la palette du jeu du comédien et la conscience public en ce sens | FORMAT : 2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [8 participants maximum/atelier , les lundis (20h15-22h15) ou les mercredis (18h-20h), lieu : Bordeaux-centre]"
     price : "350 €/an (adhésion incluse)"
 
   - title: "Cours hebdomadaires 'Dépassement' (clown: 3H/semaine)"
-    description: "3H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [10 participants maximum, les mercredis (20h15-23h15), lieu : Bordeaux-centre]"
+    description: "OBJECTIF: jouer dans un spectacle de niveau quasi-pro en fin d'année, et poursuivre le développement de la palette du jeu du comédien et la conscience public en ce sens | FORMAT : 3H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [10 participants maximum, les mercredis (20h15-23h15), lieu : Bordeaux-centre]"
     price : "500€/an (adhésion incluse)"
 
-  - title: "Parcours 'Immersion'"
-    description: "3H+2H/semaine 'Dépassement'(hors vacances scolaires, les lundis et mercredis soir) du 14 septembre 2020 au 30 juin 2021 |ET| 10 week-ends mensuels de stage (15H/stage) |ET| 14 journées de répétition individuelle pour préparer une carte blanche (objectif : soit un spectacle prêt à être diffusé, soit la préparation aux concours d'entrée aux grandes écoles) |ET| Compagnonnage pour 2 stages (à définir avec les enseignants) auprès d'autres écoles (1 en Nouvelle-Aquitaine, et 1 en France) |ET| Accompagnement hebdomadaire individuel à la demande : aides administratives, composer avec sa vie professionnelle ou estudiantine, communiquer ses créations artistiques avec les technologies numériques, développer un soin du corps adapté."
-    price : "2 800€/an (OU tarif préférentiel à discuter au cas par cas)"
+  - title: "Parcours 'Immersion' (11H/semaine étalées sur l'année)"
+    description: "OBJECTIF : construire un spectacle pro prêt à être diffusé, ou  préparation aux concours d'entrée aux grandes écoles || FORMAT : 3H clown 'Dépassement' + 2H théâtre/semaine (hors vacances scolaires, les lundis et mercredis soir) du 14 septembre 2020 au 30 juin 2021 |ET| 10 week-ends mensuels de stage (15H/stage) |ET| 14 journées de répétitions individuelles pour préparer une carte blanche  |ET| Compagnonnage pour 2 stages (à définir avec les enseignants) auprès d'autres écoles (1 en Nouvelle-Aquitaine, et 1 en France) |ET| Accompagnement hebdomadaire individuel à la demande : gérer ses obligations administratives, composer avec sa profession ou ses études par ailleurs, communiquer ses créations artistiques avec les outils numériques, prendre soin de son corps."
+    price : "2 500€/an (OU tarif préférentiel à discuter au cas par cas)"
 
 
 

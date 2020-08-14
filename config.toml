@@ -42,7 +42,7 @@ URL = "js/main.js"
 
 [[menu.main]]
 name = "|Accueil|"
-URL = "hero-area"
+URL = "accueil"
 weight = 1
 
 [[menu.main]]
@@ -57,7 +57,7 @@ weight = 3
 
 [[menu.main]]
 name = "|École 2020/2021|"
-URL = "price"
+URL = "t"
 weight = 4
 
 [[menu.main]]
