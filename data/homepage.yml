@@ -38,30 +38,35 @@ blog:
   overlay : true
 
   blogposts :
-     - image : "/images/blog/stage-clown-juin-202-pre-rentree.png"
-       bloglink : "https://blog.association-tedua.fr/accueil/stage-clown-27-28-juin-2020-pre-rentree/"
-       title : "STAGE CLOWN | Weekend 27&28 Juin 2020"
-       summary : "Deux jours pour pratiquer le jeu de clown (8 places, débutants à avancés)."
+  - image : "/images/blog/journees-portes-ouvertes-19-sept-2020.jpg"
+    bloglink : "https://www.helloasso.com/associations/tedua/evenements/tedua-ouvre-ses-portes"
+    title : "JOURNÉES PORTES OUVERTES | Samedi 19 Septembre 2020"
+    summary : "De 9h30 à 22h : deux ateliers de pratique du clown-théâtre, des repas, une apparition sur scène du clown Zoro Zoraï... "
+    
+  - image : "/images/blog/stage-clown-juin-202-pre-rentree.png"
+    bloglink : "https://blog.association-tedua.fr/accueil/stage-clown-27-28-juin-2020-pre-rentree/"
+    title : "STAGE CLOWN | Week-end 27&28 Juin 2020"
+    summary : "Deux jours pour pratiquer le jeu de clown (8 places, débutants à avancés)."
 
-     - image : "/images/blog/accueil.jpg"
-       bloglink : "https://www.zorozorai.land"
-       title : "'LE SITE WEB DE ZORO ZORAI EST EN LIGNE..' | 10 juin 2020"
-       summary : ""
+  - image : "/images/blog/accueil.jpg"
+    bloglink : "https://www.zorozorai.land"
+    title : "'LE SITE WEB DE ZORO ZORAI EST EN LIGNE..' | 10 juin 2020"
+    summary : ""
 
-     - image : "/images/blog/nouvelle-collegiale-mai-2020.jpg"
-       bloglink : "https://blog.association-tedua.fr/accueil/nouvelle-collegiale-mai-2020/"
-       title : "LA NOUVELLE COLLÉGIALE | Mai 2020"
-       summary : "Aude, Dominique, Éric, Frédéric, Gweltaz et Julie ont rejoint le CA."
+  - image : "/images/blog/nouvelle-collegiale-mai-2020.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/nouvelle-collegiale-mai-2020/"
+    title : "LA NOUVELLE COLLÉGIALE | Mai 2020"
+    summary : "Aude, Dominique, Éric, Frédéric, Gweltaz et Julie ont rejoint le CA."
 
-     - image : "/images/blog/bio-jonathan.jpg"
-       bloglink : "https://blog.association-tedua.fr/accueil/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/"
-       title : "JONATHAN DUPUI [bio]"
-       summary : "Enseignant, auteur, metteur en scène, comédien de la pratique du jeu de Théâtre-Clown."
+  - image : "/images/blog/bio-jonathan.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/"
+    title : "JONATHAN DUPUI [bio]"
+    summary : "Enseignant, auteur, metteur en scène, comédien de la pratique du jeu de Théâtre-Clown."
 
-     - image : "/images/blog/confinement.jpg"
-       bloglink : "https://blog.association-tedua.fr/accueil/premier-travaux-du-confinement-avril-2020/"
-       title : "PREMIERS TRAVAUX DE CONFINEMENT | Avril 2020"
-       summary : "Point de vue : Anne Lucie raconte.."
+  - image : "/images/blog/confinement.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/premier-travaux-du-confinement-avril-2020/"
+    title : "PREMIERS TRAVAUX DE CONFINEMENT | Avril 2020"
+    summary : "Point de vue : Anne Lucie raconte.."
 
     
 ################# food Menu ################
