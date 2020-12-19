@@ -38,6 +38,22 @@ blog:
   overlay : true
 
   blogposts :
+  
+  - image : "/images/blog/phare.jpg"
+    bloglink : "https://www.zorozorai.land/#/9"
+    title : "JOURNAL INTIME DU GARDIEN DU PHARE FLOTTANT | déc 2020"
+    summary : "17 textes et 5 lettres extraits de : la Mythologie du Phare flottant ..."
+    
+  - image : "/images/blog/franca-rame.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/residence-de-l-artisan-icol-fin_nov_2020/"
+    title : "NEUF+2 : «des bijoux pour Franca Rame et Dario Fo» | déc 2020"
+    summary : "2ème article de la vie associative pendant le reconfinement."
+
+  - image : "/images/blog/residence_mouce_nov2020.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/residence-du-clown-mouce-novembre-2020/"
+    title : "NEUF+1 : «vers le rêve de Château» | nov 2020"
+    summary : "1er article de la vie associative pendant le reconfinement."
+
   - image : "/images/blog/journees-portes-ouvertes-19-sept-2020.jpg"
     bloglink : "https://www.helloasso.com/associations/tedua/evenements/tedua-ouvre-ses-portes"
     title : "JOURNÉES PORTES OUVERTES | Samedi 19 Septembre 2020"
