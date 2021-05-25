@@ -38,36 +38,51 @@ blog:
   overlay : true
 
   blogposts :
+
+  - image : "/images/blog/zoro_que-lui.jpg"
+    bloglink : "https://tube.aquilenet.fr/videos/watch/f802611c-fb14-4ccc-9117-5065be60e44a"
+    title : "APPARITION SCENIQUE #25, Z0R0 : «Que lui.» | Mai 2021"
+    summary : "4ème article-reportage du quotidien collectif «au Château»."
+
+  - image : "/images/blog/onzeplus1.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/residences_soin_et_yeroelle/"
+    title : "ONZE+1-1+1 : «Lecture depuis la pénombre du monde» | Avr 2021"
+    summary : "4ème article-reportage du quotidien collectif «au Château»."
+
+  - image : "/images/blog/dixplus1.jpg"
+    bloglink : "https://blog.association-tedua.fr/accueil/residences_soin_et_yeroelle/"
+    title : "DIX+1 : «Des dimanches à grande échelle ?» | Fév 2021"
+    summary : "3ème article-reportage du quotidien collectif «au Château»."
   
   - image : "/images/blog/phare.jpg"
     bloglink : "https://www.zorozorai.land/#/9"
-    title : "JOURNAL INTIME DU GARDIEN DU PHARE FLOTTANT | déc 2020"
-    summary : "17 textes et 5 lettres extraits de : la Mythologie du Phare flottant ..."
+    title : "JOURNAL INTIME du Gardien du Phare Flottant | Déc 2020"
+    summary : "5 lettres et 17 textes extraits de la Mythologie du Phare Flottant."
     
   - image : "/images/blog/franca-rame.jpg"
     bloglink : "https://blog.association-tedua.fr/accueil/residence-de-l-artisan-icol-fin_nov_2020/"
     title : "NEUF+2 : «des bijoux pour Franca Rame et Dario Fo» | déc 2020"
-    summary : "2ème article de la vie associative pendant le reconfinement."
+    summary : "2ème article-reportage du quotidien collectif «au Château»."
 
   - image : "/images/blog/residence_mouce_nov2020.jpg"
     bloglink : "https://blog.association-tedua.fr/accueil/residence-du-clown-mouce-novembre-2020/"
-    title : "NEUF+1 : «vers le rêve de Château» | nov 2020"
-    summary : "1er article de la vie associative pendant le reconfinement."
+    title : "NEUF+1 : «vers le rêve de Château» | Nov 2020"
+    summary : "1er article-reportage du quotidien collectif «au Château»."
 
   - image : "/images/blog/journees-portes-ouvertes-19-sept-2020.jpg"
     bloglink : "https://www.helloasso.com/associations/tedua/evenements/tedua-ouvre-ses-portes"
-    title : "JOURNÉES PORTES OUVERTES | Samedi 19 Septembre 2020"
-    summary : "De 9h30 à 22h : deux ateliers de pratique du clown-théâtre, des repas, une apparition sur scène du clown Zoro Zoraï... "
+    title : "JOURNÉES PORTES OUVERTES | 19 Sept 2020"
+    summary : "9h30-22h : repas, ateliers, impro-clown."
     
   - image : "/images/blog/stage-clown-juin-202-pre-rentree.png"
     bloglink : "https://blog.association-tedua.fr/accueil/stage-clown-27-28-juin-2020-pre-rentree/"
-    title : "STAGE CLOWN | Week-end 27&28 Juin 2020"
-    summary : "Deux jours pour pratiquer le jeu de clown (8 places, débutants à avancés)."
+    title : "WEEK-END STAGE CLOWN | 27&28 Juin 2020"
+    summary : "Deux jours pour pratiquer le jeu de théâtre-clown."
 
   - image : "/images/blog/accueil.jpg"
     bloglink : "https://www.zorozorai.land"
-    title : "'LE SITE WEB DE ZORO ZORAI EST EN LIGNE..' | 10 juin 2020"
-    summary : ""
+    title : "LE SITE WEB DE ZORO ZORAI... | juin 2020"
+    summary : "...est en ligne sur www.zorozorai.land !"
 
   - image : "/images/blog/nouvelle-collegiale-mai-2020.jpg"
     bloglink : "https://blog.association-tedua.fr/accueil/nouvelle-collegiale-mai-2020/"
@@ -81,7 +96,7 @@ blog:
 
   - image : "/images/blog/confinement.jpg"
     bloglink : "https://blog.association-tedua.fr/accueil/premier-travaux-du-confinement-avril-2020/"
-    title : "PREMIERS TRAVAUX DE CONFINEMENT | Avril 2020"
+    title : "PREMIERS TRAVAUX DE CONFINEMENT | Avr 2020"
     summary : "Point de vue : Anne Lucie raconte.."
 
     
