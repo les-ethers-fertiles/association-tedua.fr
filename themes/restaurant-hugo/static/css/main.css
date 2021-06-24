@@ -508,7 +508,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
     ajout des classes "button" pour les trois boutons
 --*/
 #price .button1 {
-  background-color: #ff530a; 
+  background-color: #ff530a;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -521,7 +521,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #price .button2 {
-  background-color: #fcd808; 
+  background-color: #fcd808;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -534,7 +534,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #price .button3 {
-  background-color: #02c23f; 
+  background-color: #02c23f;
   border: none;
   color: white;
   padding: 15px 32px;
