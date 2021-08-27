@@ -4,37 +4,96 @@ hero_area:
   bg_image : "images/header.jpg"
   overlay : false
 
-################### Gallery ###################
-gallery:
-  enable : true
-  title : " "
-  images :
-    - "images/slider/Petites-accueil-1.png"
-    - "images/slider/Petites-accueil-2.png"
-    - "images/slider/Petites-accueil-3.png"
-    - "images/slider/Petites-accueil-4.png"
-    - "images/slider/Petites-accueil-5.png"
-    - "images/slider/Petites-accueil-6.png"
-    - "images/slider/Petites-accueil-7.png"
-    - "images/slider/Petites-accueil-8.png"
-    - "images/slider/Petites-accueil-9.png"
-    - "images/slider/Petites-accueil-10.png"
-    - "images/slider/Petites-accueil-11.png"
-    - "images/slider/Petites-accueil-12.png"
-
+################## Header : cf config.toml ##################
 
 ################ About #######################
 about:
   enable : true
   image : "images/logo2.png"
-  title : "École TEDUA : 'découvrir la discipline du jeu à travers sa pratique, et par la création de spectacles de clown-théâtre'."
-  description : "TeDua s’est mise à exister à partir du moment où des personnes souhaitant découvrir la  pratique du jeu ont coopéré ensemble pour que cela leur soit possible. Association de loi 1901 à but non lucratif, elle est organisée en Collégiale depuis sa création en 2017. Née de la rencontre entre [Jonathan Dupui](https://blog.association-tedua.fr/activites-creations/annonces/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/) enseignant de théâtre puis de clown-théâtre depuis 11 ans, et [Anne Lucie Dumay](https://www.instagram.com/anneluciedumay/?hl=en), titulaire d'un master en anthropologie, qui développent l’École TeDua autour de la 'Discipline du Jeu', accompagnés d'une équipe d’élèves, d’amis et de curieux qui se rencontrent [au sein de la vie associative](https://blog.association-tedua.fr)"
+  title : "SAISON 2021/2022 : «L'ÉPANOUISSEMENT»"
+  description : "TeDua s’est mise à exister à partir du moment où des personnes souhaitant découvrir la  pratique du jeu ont coopéré ensemble pour que cela leur soit possible. Association de loi 1901 à but non lucratif créée en 2017, elle est organisée en Collégiale. Née de la rencontre entre [Jonathan Dupui](https://blog.association-tedua.fr/activites-creations/annonces/jonathan-dupui-enseignant-discipline-du-jeu-theatre-clown/), enseignant de théâtre puis de clown-théâtre depuis 12 ans, et [Anne Lucie Dumay](https://www.instagram.com/anneluciedumay/?hl=en), titulaire d'un master en anthropologie, qui développent l’École TeDua autour de la 'Discipline du Jeu', accompagnés d'une équipe d’élèves, d’amis et de curieux qui se rencontrent [au sein de la vie associative](https://blog.association-tedua.fr). Et depuis un an, autour d'[un lieu et un projet de vie collectifs : le Château](https://chateau.association-tedua.fr/)..."
 
-################# Blog ######################
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : " "
+  images :
+    - "images/slider1/big.png"
+  
+
+################### Subscription ################
+subscription:
+  enable : true
+  bg_image : "images/jeu.png"
+  title : "Vendredi 10 décembre à 19H"
+  description :
+  #Mailchimp subscription configaration
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : false
+
+
+################### Gallery2 ###################
+gallery2:
+  enable : true
+  title : "Rétrospective (Saison 2020/2021)"
+  images :
+    - "images/slider2/20_21_01.jpg"
+    - "images/slider2/20_21_02.jpg"
+    - "images/slider2/20_21_03.jpg"
+    - "images/slider2/20_21_04.jpg"
+    - "images/slider2/20_21_05.jpg"
+    - "images/slider2/20_21_06.jpg"
+    - "images/slider2/20_21_07.jpg"
+    - "images/slider2/20_21_08.jpg"
+    - "images/slider2/20_21_09.jpg"
+    - "images/slider2/20_21_10.jpg"
+    - "images/slider2/20_21_11.jpg"
+    - "images/slider2/20_21_12.jpg"
+    - "images/slider2/20_21_13.jpg"
+    - "images/slider2/20_21_14.jpg"
+    - "images/slider2/20_21_15.jpg"
+    - "images/slider2/20_21_16.jpg"
+    - "images/slider2/20_21_17.jpg"
+    - "images/slider2/20_21_18.jpg"
+    - "images/slider2/20_21_19.jpg"
+    - "images/slider2/20_21_20.jpg"
+
+ 
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "ÉCOLE"
+  description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la discipline du jeu que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Et ainsi, apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir «d’autres peaux ou d’autres poils» .'* -- Jonathan Dupui | enseignant principal, auteur, metteur en scène, comédien --"
+
+  subtitle : "Programme et tarifs (2021/2022): "
+  pricing_item:
+  
+  - title: "[NOUVEAU] Formation à la Préparation aux Concours "
+    description: "OBJECTIF: formation à la préparation aux concours d'entrée dans les grandes écoles privées de théâtre, conservatoires régionaux | FORMAT: trois professionnels encadrant six comédiens, au cours de 12 séances de 4h30 de travail, tous les mercredis de 15h à 19H30 [Session #1: le 20 Octobre à Bordeaux-centre."
+    price : "300€/session (adhésion incluse)"
+
+  - title: "Atelier 'Clown-Dépassement' du Mercredi"
+    description: "OBJECTIFS: jouer en fin de saison dans un spectacle de clown-théâtre amateur avec une exigence semi-pro, poursuivre le développement de la palette du jeu du comédien et la conscience public en ce sens || FORMAT: un professionnel encadrant 8 participants, au cours de 32 séances de 3H tous les mercredis (20h-23h), hors vacances scolaires  || RENTRÉE: le 15 septembre 2021 à Bordeaux-centre."
+    price : "500€/an (adhésion incluse)"
+
+  - title: "Atelier 'Clown-Dépassement' du Jeudi"
+    description: "OBJECTIFS: jouer en fin de saison dans un spectacle de clown-théâtre amateur avec une exigence semi-pro, poursuivre le développement de la palette du jeu du comédien et la conscience public en ce sens || FORMAT: un professionnel encadrant 8 participants, au cours de 32 séances de 3H tous les jeudis (19h30-22h30), hors vacances scolaires  || RENTRÉE: le 16 septembre 2021 à Bordeaux-centre."
+    price : "500€/an (adhésion incluse)"
+
+  - title: "Stages 'Clown-Exploration'"
+    description: "OBJECTIF: pratique du jeu de clown-théâtre et de tous les trajets émotionnels selon la discipline du jeu enseignée par Jonathan Dupui || FORMAT: 6 weekends de 14 heures de pratique (Sam-Dim : 10h-18h) || DATES: 30-31 Oct,11-12 Déc,12-13 Fév,19-20 Mar,23-24 Avr,11-12 Juin, à Bordeaux-centre."
+    price : "120€/stage, 600€ les 6 stages (adhésion et p'tits déj inclus)"
+
+
+
+################ Blog ######################
 blog:
   enable : true
-  title : "Blog"
-  bg_image : "images/News-Vie-asso-Jeu-Cours.jpg"
+  title : "JOURNAL DE BORD"
+  bg_image : "images/journaldebord.jpeg"
   overlay : true
 
   blogposts :
@@ -42,7 +101,7 @@ blog:
   - image : "/images/blog/zoro_que-lui.jpg"
     bloglink : "https://tube.aquilenet.fr/videos/watch/f802611c-fb14-4ccc-9117-5065be60e44a"
     title : "APPARITION SCENIQUE #25, Z0R0 : «Que lui.» | Mai 2021"
-    summary : "4ème article-reportage du quotidien collectif «au Château»."
+    summary : "Solo improvisé du clown Zoro Zoraï au théâtre du Garage, intitulé : «Que lui.»"
 
   - image : "/images/blog/onzeplus1.jpg"
     bloglink : "https://blog.association-tedua.fr/accueil/residences_soin_et_yeroelle/"
@@ -100,50 +159,62 @@ blog:
     summary : "Point de vue : Anne Lucie raconte.."
 
 
-################# food Menu ################
-pricing:
+################### Subscription2 ################
+subscription2:
   enable : true
-  title : "École (2020/2021)"
-  description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la “discipline du jeu” que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Ainsi, d’apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir «d’autres peaux ou d’autres poils» .'* -- Jonathan Dupui | enseignant, auteur, metteur en scène et comédien"
-
-  subtitle : "Grille tarifaire : "
-  pricing_item:
-  - title: "Stages mensuels de pratique du Clown 'Amateurs tous niveaux'"
-    description: "OBJECTIF: pratique du jeu et de tous les trajets émotionnels |  FORMAT: 1 Week-End par mois, 16 heures de pratique du clown pour découvrir ou approfondir le jeu improvisé, et découvrir ensemble tous les trajets émotionnels [12 participants maximum, 2 petits déjeuners inclus, lieu : Bordeaux-centre]"
-    price : "100€/stage"
-
-  - title: "Stages trimestriels de pratique du Clown 'Comédiens pros'"
-    description: "OBJECTIF: approfondir la conscience de la nature du public | FORMAT: 1 Week-End par mois incluant 16 heures de pratique du clown pour traiter les questions du 'dépassement de soi' et du fameux 'travail sans fin de la technique' [8 participants maximum, 2 petits déjeuners inclus, lieu : Bordeaux-centre]"
-    price : "200€/stage"
-
-  - title: "Séance hebdomadaire ‘Jouer pour soi’ (pratique du jeu)"
-    description: "OBJECTIF: expression et exploration des trajets émotionnels par la pratique du jeu dans un cadre intimiste | FORMAT: 2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [8 participants maximum, les lundis de 18h à 20h (hors vacances scolaires),  lieu : Bordeaux-centre] "
-    price : "350€/an (adhésion incluse)"
-
-  - title: "Cours hebdomadaires 'Découverte-Exploration' (clown, théâtre: 2H/semaine)"
-    description: "OBJECTIF: jouer dans un spectacle en fin d'année, et élargir la palette du jeu du comédien et la conscience public en ce sens | FORMAT : 2H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [8 participants maximum/atelier , les lundis (20h15-22h15) ou les mercredis (18h-20h), lieu : Bordeaux-centre]"
-    price : "350 €/an (adhésion incluse)"
-
-  - title: "Cours hebdomadaires 'Dépassement' (clown: 3H/semaine)"
-    description: "OBJECTIF: jouer dans un spectacle de niveau quasi-pro en fin d'année, et poursuivre le développement de la palette du jeu du comédien et la conscience public en ce sens | FORMAT : 3H/semaine (hors vacances scolaires) du 14 septembre 2020 au 30 juin 2021 [10 participants maximum, les mercredis (20h15-23h15), lieu : Bordeaux-centre]"
-    price : "500€/an (adhésion incluse)"
-
-  - title: "Parcours 'Immersion' (11H/semaine étalées sur l'année)"
-    description: "OBJECTIF : construire un spectacle pro prêt à être diffusé, ou  préparation aux concours d'entrée aux grandes écoles || FORMAT : 3H clown 'Dépassement' + 2H théâtre/semaine (hors vacances scolaires, les lundis et mercredis soir) du 14 septembre 2020 au 30 juin 2021 |ET| 10 week-ends mensuels de stage (15H/stage) |ET| 14 journées de répétitions individuelles pour préparer une carte blanche  |ET| Compagnonnage pour 2 stages (à définir avec les enseignants) auprès d'autres écoles (1 en Nouvelle-Aquitaine, et 1 en France) |ET| Accompagnement hebdomadaire individuel à la demande : gérer ses obligations administratives, composer avec sa profession ou ses études par ailleurs, communiquer ses créations artistiques avec les outils numériques, prendre soin de son corps."
-    price : "2 500€/an (OU tarif préférentiel à discuter au cas par cas)"
-
-
-
-################### Subscription ################
-subscription:
-  enable : true
-  bg_image : "images/Siteweb-2-Spectacles.jpg"
-  title : "Spectacles"
+  bg_image : "images/spectacles.jpg"
+  title : "SPECTACLES"
   description :
-  #Mailchimp subscription configaration
-  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
-  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
-  overlay : true
+  overlay : false
+
+
+################### Gallery3 ###################
+gallery3:
+  enable : true
+  title : "Rétrospective (Saison 2019-2020)"
+  images :
+    - "images/slider3/19_20_01.jpg"
+    - "images/slider3/19_20_02.jpg"
+    - "images/slider3/19_20_03.jpg"
+    - "images/slider3/19_20_04.jpg"
+    - "images/slider3/19_20_05.jpg"
+    - "images/slider3/19_20_06.jpg"
+    - "images/slider3/19_20_07.jpg"
+    - "images/slider3/19_20_08.jpg"
+    - "images/slider3/19_20_09.jpg"
+    - "images/slider3/19_20_10.jpg"
+    - "images/slider3/19_20_11.jpg"
+
+
+################### Subscription3 ################
+subscription3:
+  enable : true
+  bg_image : "images/10decembre.png"
+  title : "Vendredi 10 décembre, à l'Auditorium de la Cité du Vin"
+  description :
+  overlay : false
+
+################### Gallery3 ###################
+gallery4:
+  enable : true
+  title : "Apparitions scéniques (Théâtre du Garage, Floirac)"
+  images :
+    - "images/slider5/clown_01.jpg"
+    - "images/slider5/clown_02.jpg"
+    - "images/slider5/clown_03.jpg"
+    - "images/slider5/clown_04.jpg"
+    - "images/slider5/clown_05.jpg"
+    - "images/slider5/clown_06.jpg"
+    - "images/slider5/clown_07.jpg"
+    - "images/slider5/clown_08.jpg"
+    - "images/slider5/clown_09.jpg"
+    - "images/slider5/clown_10.jpg"
+    - "images/slider5/clown_11.jpg"
+    - "images/slider5/clown_12.jpg"
+    - "images/slider5/clown_13.jpg"
+    - "images/slider5/clown_14.jpg"
+
+
 
 ################ Contact #######################
 #contact:

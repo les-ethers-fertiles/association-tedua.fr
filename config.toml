@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 languageCode = "en-us"
-title = "la Discipline du Jeu"
+title = "une Discipline du Jeu"
 theme = "restaurant-hugo"
 summaryLength = "7"
 paginate = 6
@@ -40,43 +40,49 @@ URL = "js/main.js"
 
 ############################## navigation ###############################
 
-[[menu.main]]
-name = "|Accueil|"
-URL = "accueil"
-weight = 1
 
 [[menu.main]]
-name = "|Édito|"
+name = "|La rentrée*|"
 URL = "about-us"
 weight = 2
 
 [[menu.main]]
-name = "|Blog|"
-URL = "blog"
+name = "|Mythologie|"
+URL = "subscribe"
 weight = 3
 
+
 [[menu.main]]
-name = "|École 2020/2021|"
-URL = "t"
+name = "|École|"
+URL = "price"
 weight = 4
 
 [[menu.main]]
-name = "|Spectacles|"
-URL = "subscribe"
+name = "|Journal de bord|"
+URL = "blog"
 weight = 5
+
+[[menu.main]]
+name = "|Spectacles|"
+URL = "subscribe2"
+weight = 6
+
+[[menu.main]]
+name = "|À la Cité du Vin*|"
+URL = "subscribe3"
+weight = 7
 
 [[menu.main]]
 name = "|Contact|"
 URL = "footer"
-weight = 6
-
+weight = 8
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
 # meta data
-author = "TeDua"
-description = "Site web de l'association de pratique de la discipline du jeu (théâtre,clown) TeDua."
+author = "association TeDua"
+description = "Site vitrine de TeDua, association qui accueille autour de la pratique du jeu de clown-théâtre."
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
@@ -91,43 +97,42 @@ preloader = "" # use .png , .svg or .gif format
 [params.footer]
 enable = true
 contactInfoTitle = "CONTACT : "
-blogTitle = "BLOG :"
-galleryTitle = "IMAGES : "
+galleryTitle = "GALERIE : "
 socialTitle = "MÉDIAS SOCIAUX : "
 
 ############################ footer contact item
 [[params.footer.contactItem]]
 title="Téléphone"
 icon = "fa fa-phone"
-content = "06 15 60 97 04 (Anne Lucie Dumay)"
+content = "06 15 60 97 04 (Anne Lucie Dumay, Coordinatrice générale)"
 [[params.footer.contactItem]]
 title="Adresse"
 icon = "fa fa-map-marker"
-content = "Cours & Stages : 50 rue du Mirail 33000 | Siège social : Bordeaux"
+content = "École : 50 rue du Mirail 33000 | Siège social : Bordeaux"
 
 [[params.footer.contactItem]]
 title="Email"
 icon = "fa fa-envelope"
-content = "ecole@association-tedua.fr ou diffusion@association-tedua.fr"
+content = "diffusion@association-tedua.fr"
 
 ######################### footer gallery
 [[params.footer.gallery]]
-image = "images/slider/Petites-accueil-2.png"
+image = "images/slider2/20_21_01.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/Petites-accueil-1.png"
+image = "images/slider2/20_21_02.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/Petites-accueil-4.png"
+image = "images/slider2/20_21_03.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/Petites-accueil-11.png"
+image = "images/slider2/20_21_04.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/Petites-accueil-6.png"
+image = "images/slider2/20_21_05.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/Petites-accueil-7.png"
+image = "images/slider2/20_21_06.jpg"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]

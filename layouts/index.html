@@ -1,17 +1,30 @@
 {{ define "main" }}
 
-{{ partial "hero-area.html" . }}
 
-{{- partial "header.html" . -}}
+{{ partial "hero-area.html" . }} <!--bannière-->
 
-{{ partial "gallery.html" . }}
+{{- partial "header.html" . -}} <!--menus de navigation-->
+ 
+{{ partial "about.html" . }} <!--punchline saison 2021-22-->
 
-{{ partial "about.html" . }}
+{{ partial "gallery.html" . }} <!--4 blocs qui dispatchent vers rentrée/prépa concours/C&F/saison 2020-21-->
 
-{{ partial "blog.html" . }}
+{{ partial "subscription.html" . }} <!--mythologie: photo montage Zoro+Aliam avec encadrés des 5 couleurs-->
 
-{{ partial "food-menu.html" . }}
+{{ partial "gallery2.html" . }} <!--galerie photos - rétrospective saison 2020-21-->
 
-{{ partial "subscription.html" . }}
+{{ partial "food-menu.html" . }} <!--école (avec nouveauté "concours prepa")-->
+
+{{ partial "blog.html" . }} <!--journal de bord-->
+
+{{ partial "subscription2.html" . }} <!--le clown et la fée-->
+
+{{ partial "gallery3.html" . }} <!--galerie photos - rétrospective saison 2019-20-->
+
+{{ partial "subscription3.html" . }} <!--spectacles-->
+
+{{ partial "gallery4.html" . }} <!--galerie photos - rétrospective saison 2019-20-->
+
+
 
 {{ end }}

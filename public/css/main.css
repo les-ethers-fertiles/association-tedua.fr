@@ -73,7 +73,7 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .section {
@@ -512,7 +512,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
@@ -686,41 +686,26 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   font-size: 18px;
 }
 
-#subscribe .block form .form-control {
-  width: 450px;
-  background: #fff;
-  opacity: 0.9;
-  border: none;
-  height: 65px;
-  border-radius: 0px;
-  font-size: 15px;
-}
-
-#subscribe .block form .input-group-addon {
-  padding: 0px;
-  border: none;
-  background: none;
-}
-
-#subscribe .block form .input-group-addon button {
-  width: 212px;
-  height: 65px;
-  border: none;
-  border-radius: 0px;
-  background: #7EC3BB;
+#subscribe2 .block h1.heading {
   color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  -webkit-transition: .3s all;
-  -o-transition: .3s all;
-  transition: .3s all;
+}
+#subscribe2 .block p {
+  padding: 25px 0px;
+  color: #fff;
+  font-size: 20px;
 }
 
-#subscribe .block form .input-group-addon button:hover {
-  background: #69a8a1;
+
+#subscribe3 .block h1.heading {
+  color: #fff;
 }
+#subscribe3 .block p {
+  padding: 25px 0px;
+  color: #fff;
+  font-size: 20px;
+}
+
+
 
 /*--
     contact-us Start
