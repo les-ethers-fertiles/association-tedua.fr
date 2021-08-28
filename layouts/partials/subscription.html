@@ -1,20 +1,9 @@
 {{ if .Site.Data.homepage.subscription.enable }}
 {{ with .Site.Data.homepage.subscription }}
 <a href="https://www.zorozorai.land/#/la-comptabilite-des-plumes-et-des-cailloux" target="_blank">
-<section id="subscribe" {{ if .overlay }} class="overlay" {{ end }}
-  style="background-image: url('{{ .bg_image | absURL }}');">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-		
-        <div class="block">
-          <br><br><br><br><p><img src="/images/mythologie.png" width="30%" height="auto" align="left"/></p>
-        </div>
-      </div><!-- .col-md-12 close -->
-    </div><!-- .row close -->
-   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  </div><!-- .containe close -->
-</section><!-- #subscribe close -->
+<section id="subscribe" {{ if .overlay }} class="overlay" {{ end }}>
+  <img class="img-responsive" src="{{ .bg_image | absURL }}">
+</section>
 </a>
 {{end}}
 {{end}}
