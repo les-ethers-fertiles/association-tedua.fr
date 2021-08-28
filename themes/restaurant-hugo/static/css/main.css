@@ -185,7 +185,7 @@ a:active {
 --*/
 .navigation {
   position: sticky;
-  top: 85px;
+  top: 16px;
 }
 
 nav {
@@ -194,7 +194,7 @@ nav {
 }
 
 nav .block {
-  margin-top: -85px;
+  margin-top: -25px;
   background: #fff;
   padding: 25px 40px;
   background: rgba(255, 255, 255, 0.89);
@@ -986,5 +986,16 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 .pagination .page-item.active .page-link {
   background: #FF4F02;
   color: #fff;
-  border-color: #FF4F02
+  border-color: #FF4F02;
+}
+
+iframe {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.orange {
+    color: #FF4F02;
 }

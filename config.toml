@@ -40,11 +40,10 @@ URL = "js/main.js"
 
 ############################## navigation ###############################
 
-
 [[menu.main]]
-name = "|La rentrée*|"
-URL = "about-us"
-weight = 2
+name = "|Le Château|"
+URL = "footer"
+weight = 8
 
 [[menu.main]]
 name = "|Mythologie|"
@@ -68,14 +67,14 @@ URL = "subscribe2"
 weight = 6
 
 [[menu.main]]
-name = "|À la Cité du Vin*|"
+name = "|À la Cité du Vin|"
 URL = "subscribe3"
 weight = 7
 
 [[menu.main]]
 name = "|Contact|"
 URL = "footer"
-weight = 8
+weight = 9
 
 #################### default parameters ################################
 [params]
