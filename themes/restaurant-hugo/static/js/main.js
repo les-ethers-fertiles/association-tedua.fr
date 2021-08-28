@@ -57,7 +57,7 @@ $(document).ready(function () {
             if (target.length) {
                 html_body.animate({
                     scrollTop: target.offset().top - 90
-                }, 2500, "easeInOutExpo");
+                }, 2000, "easeInOutExpo");
                 return false;
             }
         }
