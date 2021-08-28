@@ -195,7 +195,7 @@ gallery3:
 subscription3:
   enable : true
   bg_image : "images/10decembre.png"
-  title : "Vendredi 10 décembre, à l'Auditorium de la Cité du Vin :"
+  title : ""
   description :
   overlay : false
 

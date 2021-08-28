@@ -667,7 +667,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #subscribe {
-  padding: 100px 0px;
+  padding: 0px 0px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
