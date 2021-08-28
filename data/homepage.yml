@@ -174,10 +174,15 @@ gallery3:
   title : "Rétrospective (Saison 2019-2020)"
   images :
     - "images/slider3/19_20_01.jpg"
+    - "images/slider3/19_20_001.jpg"
     - "images/slider3/19_20_02.jpg"
+    - "images/slider3/19_20_002.jpg"
     - "images/slider3/19_20_03.jpg"
+    - "images/slider3/19_20_003.jpg"
     - "images/slider3/19_20_04.jpg"
+    - "images/slider3/19_20_004.jpg"
     - "images/slider3/19_20_05.jpg"
+    - "images/slider3/19_20_005.jpg"
     - "images/slider3/19_20_06.jpg"
     - "images/slider3/19_20_07.jpg"
     - "images/slider3/19_20_08.jpg"
@@ -214,6 +219,13 @@ gallery4:
     - "images/slider5/clown_13.jpg"
     - "images/slider5/clown_14.jpg"
 
+################### Subscription4 ################
+subscription4:
+  enable : true
+  bg_image : "images/chateau.jpg"
+  title : ""
+  description :
+  overlay : false
 
 
 ################ Contact #######################

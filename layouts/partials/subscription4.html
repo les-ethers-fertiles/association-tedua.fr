@@ -1,0 +1,19 @@
+{{ if .Site.Data.homepage.subscription4.enable }}
+{{ with .Site.Data.homepage.subscription4 }}
+<a href="https://chateau.association-tedua.fr" target="_blank">
+<section id="subscribe4" {{ if .overlay }} class="overlay" {{ end }}
+  style="background-image: url('{{ .bg_image | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div><!-- .row close -->
+  </div><!-- .containe close -->
+</section><!-- #subscribe close -->
+</a>
+{{end}}
+{{end}}

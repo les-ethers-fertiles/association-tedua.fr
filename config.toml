@@ -41,11 +41,6 @@ URL = "js/main.js"
 ############################## navigation ###############################
 
 [[menu.main]]
-name = "|Le Château|"
-URL = "footer"
-weight = 8
-
-[[menu.main]]
 name = "|Mythologie|"
 URL = "subscribe"
 weight = 3
@@ -72,6 +67,11 @@ URL = "subscribe3"
 weight = 7
 
 [[menu.main]]
+name = "|Le Château|"
+URL = "subscribe4"
+weight = 8
+
+[[menu.main]]
 name = "|Contact|"
 URL = "footer"
 weight = 9
@@ -96,6 +96,7 @@ preloader = "" # use .png , .svg or .gif format
 [params.footer]
 enable = true
 contactInfoTitle = "CONTACT : "
+blogTitle = "BY JEAN'RTAR : "
 galleryTitle = "GALERIE : "
 socialTitle = "MÉDIAS SOCIAUX : "
 
