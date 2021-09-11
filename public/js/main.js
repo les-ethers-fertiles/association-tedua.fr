@@ -49,7 +49,7 @@ $(document).ready(function () {
     });
 
     // animation scroll js
-    var html_body = $('html, body');
+    /*var html_body = $('html, body');
     $('nav li a').on('click', function () { //use page-scroll class in any HTML tag for scrolling
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -61,7 +61,7 @@ $(document).ready(function () {
                 return false;
             }
         }
-    });
+    });*/
 
     // easeInOutExpo Declaration
     jQuery.extend(jQuery.easing, {

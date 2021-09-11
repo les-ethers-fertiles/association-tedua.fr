@@ -227,7 +227,7 @@ px      68    160    252    */
     padding-bottom: 30px;
   }
   #blog .block ul li {
-    float: none;
+    position: relative;
     width: 100%;
     height: 100%;
   }
@@ -246,9 +246,19 @@ px      68    160    252    */
     width: 100%;
   }
   #blog .block ul li .content-right {
-    float: none;
+    position: absolute;
+    top: 0;
     width: 100%;
+    height: initial;
     padding: 20px 35px;
+
+    padding-bottom: 0;
+  }
+  #blog .block ul li .content-right a {
+    color: white;
+  }
+    #blog .block ul li .content-right p {
+    display: none;
   }
   #blog .block ul li .content-right:after {
     display: none;
