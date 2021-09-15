@@ -498,16 +498,16 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 
 
 /*--
-    price Start
+    ecole Start
 --*/
-#price {
+#ecole {
   padding: 70px 0px;
 }
 
 /*--
     ajout des classes "button" pour les trois boutons
 --*/
-#price .button1 {
+#ecole .button1 {
   background-color: #ff530a;
   border: none;
   color: white;
@@ -520,7 +520,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   left:40%;
 }
 
-#price .button2 {
+#ecole .button2 {
   background-color: #fcd808;
   border: none;
   color: white;
@@ -533,7 +533,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   left:40%;
 }
 
-#price .button3 {
+#ecole .button3 {
   background-color: #02c23f;
   border: none;
   color: white;
@@ -547,7 +547,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 
-#price .block p {
+#ecole .block p {
   color: #9D9D9D;
   font-size: 16px;
   line-height: 26px;
@@ -555,31 +555,31 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   text-align: center;
 }
 
-#price .block .pricing-list {
+#ecole .block .pricing-list {
   padding-top: 85px;
 }
 
-#price .block .pricing-list ul {
+#ecole .block .pricing-list ul {
   padding: 0 0 30px;
   margin: 0;
 }
 
-#price .block .pricing-list ul li {
+#ecole .block .pricing-list ul li {
   padding: 21px 0px;
 }
 
-#price .block .pricing-list ul li .item .item-title {
+#ecole .block .pricing-list ul li .item .item-title {
   position: relative;
 }
 
-#price .block .pricing-list ul li .item .item-title h2 {
+#ecole .block .pricing-list ul li .item .item-title h2 {
   display: inline-block;
   position: relative;
   z-index: 99;
   background: #fff;
 }
 
-#price .block .pricing-list ul li .item .item-title .border-bottom {
+#ecole .block .pricing-list ul li .item .item-title .border-bottom {
   position: absolute;
   top: 0;
   width: 100%;
@@ -588,17 +588,17 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   margin-top: 20px;
 }
 
-#price .block .pricing-list ul li .item .item-title span {
+#ecole .block .pricing-list ul li .item .item-title span {
   float: right;
   color: #938463;
 }
 
-#price .block .pricing-list ul li .item p {
+#ecole .block .pricing-list ul li .item p {
   padding: 12px 0 0px;
   color: #949494;
 }
 
-#price .block .pricing-list .btn {
+#ecole .block .pricing-list .btn {
   padding: 28px 105px;
   border-radius: 0px;
   background: none;
@@ -612,7 +612,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   transition: .3s all;
 }
 
-#price .block .pricing-list .btn:hover {
+#ecole .block .pricing-list .btn:hover {
   background: #ff530a;
   color: #fff;
 }
