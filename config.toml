@@ -48,7 +48,7 @@ weight = 3
 
 [[menu.main]]
 name = "|École|"
-URL = "price"
+URL = "ecole"
 weight = 4
 
 [[menu.main]]

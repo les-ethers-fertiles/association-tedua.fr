@@ -7,18 +7,6 @@
 /*--
     Common Css
 --*/
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 99999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 body {
   font-family: myfont;
@@ -111,7 +99,7 @@ a:active {
 
 .heading span {
   font-size: 45px;
-  color: #ff530a;
+  color: #e94c3d;
   font-weight: 600;
 }
 
@@ -136,7 +124,7 @@ a:active {
 }
 
 .title span {
-  color: #FF5333;
+  color: #e94c3d;
 }
 
 .before-border {
@@ -278,7 +266,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   bottom: 0px;
   width: 100%;
   height: 2px;
-  background: #FF5333;
+  background: #e94c3d;
 }
 
 /*--
@@ -360,7 +348,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #blog .block ul li h3 a:hover {
-  color: #FF5333;
+  color: #e94c3d;
 }
 
 
@@ -456,7 +444,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   float: right;
   padding: 28px 102.5px;
   border-radius: 0px;
-  background: #ff530a;
+  background: #e94c3d;
   color: #fff;
   border: 1px solid transparent;
   text-transform: uppercase;
@@ -469,8 +457,8 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 
 #blog .block .btn-more-info:hover {
   background: transparent;
-  color: #ff530a;
-  border: 1px solid #ff530a;
+  color: #e94c3d;
+  border: 1px solid #e94c3d;
 }
 
 .blog-single-page .post-thumb {
@@ -498,54 +486,11 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 
 
 /*--
-    ecole Start
+    ecole
 --*/
 #ecole {
   padding: 70px 0px;
 }
-
-/*--
-    ajout des classes "button" pour les trois boutons
---*/
-#ecole .button1 {
-  background-color: #ff530a;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  position:relative;
-  left:40%;
-}
-
-#ecole .button2 {
-  background-color: #fcd808;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  position:relative;
-  left:40%;
-}
-
-#ecole .button3 {
-  background-color: #02c23f;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  position:relative;
-  left:40%;
-}
-
 
 #ecole .block p {
   color: #9D9D9D;
@@ -555,8 +500,17 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   text-align: center;
 }
 
+#ecole .block a {
+  color: #e94c3d;
+  font-size: 2.3rem;
+}
+
+#ecole .block a:hover {
+  background-color: #fce88f;
+}
+
 #ecole .block .pricing-list {
-  padding-top: 85px;
+  padding-top: 35px;
 }
 
 #ecole .block .pricing-list ul {
@@ -613,7 +567,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #ecole .block .pricing-list .btn:hover {
-  background: #ff530a;
+  background: #e94c3d;
   color: #fff;
 }
 
