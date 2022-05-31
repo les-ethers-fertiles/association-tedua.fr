@@ -1,0 +1,49 @@
+{{ "<!-- Navigation Start  -->" | safeHTML }}
+
+<section>
+  
+</section>
+
+<nav class="navigation">
+	<div class="container">
+		<div class="block">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div style="float: left">
+					<a class="navbar-brand" href="{{ .Site.BaseURL }}">
+  					<img class="img-responsive" src="{{ .Site.Params.logoprepaconcours | absURL }}" alt="{{ .Site.Title }}">
+  					</a>
+					<div style="font-size:1.6rem;"> Préparation aux Concours d'entrée <br>dans les Ecoles nationales et régionales<br> d'Art Dramatique.
+					</div>
+					<!-- petit br des familles en attendant ;-p-->
+					<br>
+  					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+						
+						
+					</div>
+
+					{{ if .Site.Data.prepaconcours.pcheader.enable }}
+					{{ with .Site.Data.prepaconcours.pcheader }}
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right" id="top-nav">
+							{{ range .menus }}
+							<li><a href="{{$.Site.BaseURL}}/prepa-concours#{{ .URL }}">{{ .name }}</a></li>
+							{{ end }}
+						</ul>
+					</div><!-- /.navbar-collapse -->
+					{{end}}
+					{{end}}
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+	</div><!-- .container close -->
+</nav><!-- header close -->

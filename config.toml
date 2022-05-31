@@ -79,6 +79,7 @@ weight = 9
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+logoprepaconcours = "images/logoprepaconcours.png"
 # meta data
 author = "association TeDua"
 description = "Site vitrine de TeDua, association qui accueille autour de la pratique du jeu de clown-théâtre."
