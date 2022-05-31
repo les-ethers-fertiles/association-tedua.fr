@@ -1,0 +1,64 @@
+################ Barre de navigation #######################
+pcheader :
+  enable : true
+  menus :
+  
+    - URL : "about-us"
+      name : "Accueil"
+      
+    - URL : "ecole"
+      name : "Programme et Tarif"
+      
+    - URL : "subscribe2"
+      name : "Le contrat"
+      
+    - URL : "contact-us"
+      name : "Contact"
+      
+    - URL : "slider"
+      name : "Témoignages"
+
+################ Introduction #######################
+pcintro :
+  enable : true
+  image : "images/logo2.png"
+  title : "PROMO 2022/2023 : 'RECONNAITRE L'INTIME' "
+  description : " 'Ce programme de préparation aux concours d'entrée aux Ecoles d'Art Dramatique est d'abord le fruit des retrouvailles de deux amis vicéralement passionnés de théâtre : Simon Delgrange et Jonathan Dupui, les deux encadrants de la première promo (saison 2021-2022)................................................................' - Anne Lucie Dumay, Coordinatrice générale "
+
+
+################# Tarifs et infos pratiques ################
+pctarif:
+  enable : true
+  title : "ÉCOLE"
+  description: "*'Au-delà de l’apport technique qui permet au public une lecture facilitée du spectacle qui se présente à lui, la discipline du jeu que je propose consiste à reconnaitre un espace qui ne nécessite aucun effort, un présent qui se déroule d’office. Et ainsi, apporter au comédien le geste, l’émotion, l’espace, pour demeurer le miroir de l’innocence. Ce qui est la moindre des choses lorsque nous avons à nous vêtir «d’autres peaux ou d’autres poils» .'* -- Jonathan Dupui | enseignant principal, auteur, metteur en scène, comédien --"
+
+  subtitle : "Programme et tarif | 2022/2023 "
+  pricing_item:
+  
+  - title: "Travail de fond : hebdomadaire "
+    description: "Lorem ipsum................................................................................................"
+    price : "20 sessions (septembre à avril)"
+
+  - title: "Stages d'immersion"
+    description: "Lorem ipsum..................................................................................."
+    price : "3 stages de 3 jours (vacances scolaires d'octobre, de décembre, et de février)"
+
+  - title: "Rencontres 'hors cadre'"
+    description: "Lorem ipsum..................................................................................."
+    price : " "
+
+
+################### Témoignages des étudiants ###################
+pctemoignages :
+  enable : true
+  title : "Témoignages des étudiants"
+  images :
+    - "images/slider5/clown_01.jpg"
+    - "images/slider5/clown_02.jpg"
+    - "images/slider5/clown_03.jpg"
+    - "images/slider5/clown_04.jpg"
+    - "images/slider5/clown_05.jpg"
+    - "images/slider5/clown_06.jpg"
+    - "images/slider5/clown_07.jpg"
+
+

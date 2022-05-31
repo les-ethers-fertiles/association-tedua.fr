@@ -1,0 +1,19 @@
+{{ if .Site.Data.prepaconcours.pcintro.enable }}
+{{ with .Site.Data.prepaconcours.pcintro }}
+<section id="about-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <img class="img-responsive mx-auto" src="{{ .image | absURL }}" alt="{{ .title }}" />
+          <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">{{ .title | markdownify }}
+          </h1>
+          <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">{{ .description | markdownify }}</p><br>
+	  <iframe src="https://player.vimeo.com/video/593520096?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=1dc32fdd66" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Saison 2021-2022 : La rentr&amp;eacute;e de l&amp;#039;association TEDUA"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
