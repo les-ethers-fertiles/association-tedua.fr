@@ -70,7 +70,7 @@ section h1{
 
 
 
-#intro, #programme-tarif{
+#intro, #programme-tarif, #engagement-mutuel{
     display: flex;
     flex-direction: column;
 
@@ -80,10 +80,9 @@ section h1{
     margin: 0 auto;
 }
 
-#intro{
+#intro, #programme-tarif{
     margin-bottom: 15rem;
 }
-
 
 
 
@@ -141,4 +140,27 @@ section h1{
 }
 #programme-tarif > ul strong{
     display: block;
+}
+
+
+/**
+ * engagement-mutuel
+ */
+
+.engagement-mutuel{
+    background-color: white;
+    border: 1px solid #111;
+    font-family: monospace;
+
+    padding: 2rem;
+
+    box-shadow: inset 1rem 1rem 2rem #aaa;
+
+    max-height: 50vh;
+    overflow: scroll;
+
+}
+
+.engagement-mutuel p{
+    margin-bottom: 1em;
 }
