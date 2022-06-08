@@ -1,24 +1,23 @@
-{{ if .Site.Data.prepaconcours.pctarif.enable }}
-{{ with .Site.Data.prepaconcours.pctarif }}
 <section id="programme-tarif">
 	
-	<h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .subtitle | markdownify }}</h1>
+	<h1 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+		Programme et tarif
+	</h1>
 
-	<ul>
-		{{ range .pricing_item }}
-		<li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-			<div class="item">
-				<div class="item-title">
-					<h2>{{.title}}</h2>
-					<div class="border-bottom"></div>
-					<span>{{.price}}</span>
-				</div>
-				<p>{{.description}}</p>
-			</div>
+	<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+		Pour la saison 2022-2023, le tarif est de <strong>950€</strong>. Le programme de cette saison comprend&nbsp;:
+	</p>
+
+	<ul class="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 300ms; animation-name: fadeInUp;">
+		<li>
+			<strong>Travail de fond : hebdomadaire </strong>
+			<span>20 sessions (septembre à avril)</span>
 		</li>
-		{{ end }}
+		
+		<li>
+			<strong>Stages d'immersion</strong>
+			<span>3 stages de 3 jours (vacances scolaires d'octobre, de décembre, et de février)</span>
+		</li>		
 	</ul>
 	
 </section>
-{{end}}
-{{end}}

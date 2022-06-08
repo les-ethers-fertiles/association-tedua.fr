@@ -1,9 +1,17 @@
+p, ul {
+    font-size: 16px;
+}
+
 section{
     padding-bottom: 2rem;
 }
 
 section h1{
     font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+    padding: 1.5rem 0;
 }
 
 .prepa-concours-background{
@@ -76,9 +84,7 @@ section h1{
     margin-bottom: 15rem;
 }
 
-#intro h1{
-    padding: 1rem;
-}
+
 
 
 #intro .author{
@@ -109,4 +115,30 @@ section h1{
 
 #intro .author span{
     margin-right: 1rem;
+}
+
+
+
+/**
+ * Programme Tarif
+ */
+
+#programme-tarif{
+
+
+}
+
+#programme-tarif > p{
+    margin-bottom: 2rem;
+}
+
+#programme-tarif > ul{
+    margin-left: 2rem;
+}
+
+#programme-tarif > ul li{
+    margin-bottom: 1rem;
+}
+#programme-tarif > ul strong{
+    display: block;
 }
