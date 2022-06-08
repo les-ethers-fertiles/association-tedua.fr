@@ -1,11 +1,15 @@
 {{ define "main" }}
 
     {{ partial "prepa-concours/header" . }}
-        
-	{{ partial "prepa-concours/intro" . }}
+    
+	<div class="prepa-concours-background">
+
+		{{ partial "prepa-concours/intro" . }}
+		
+		{{ partial "prepa-concours/tarif" . }}
 	
-	{{ partial "prepa-concours/tarif" . }}
-	
+	</div>
+
 	{{ partial "prepa-concours/contrat" }}
 
 	{{ partial "prepa-concours/temoignages" . }}
