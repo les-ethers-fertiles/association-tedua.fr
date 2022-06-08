@@ -1,6 +1,17 @@
+section{
+    padding-bottom: 2rem;
+}
+
+/**
+ * Header
+ */
+
 .navigation {
+    /* override main.css styles */
     top: 0;
     padding-top: 1rem;
+
+    background: rgba(255, 255, 255, 0.89);
 }
 
 .navigation .container-fluid{
@@ -24,4 +35,59 @@
 .navigation .title-block a.navbar-brand{
     padding: 0;
     padding-right: 1rem;
+}
+
+/* override main.css styles */
+.navigation .block{
+    background: inherit;
+}
+
+/**
+ * Intro
+ */
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #d6ae5f;
+    max-width: 70rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+#intro h1{
+    padding: 1rem;
+}
+
+
+#intro .author{
+    align-self: flex-end;
+    text-align: right;
+
+    width: 50%;
+    height: 10rem;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#intro .author span{
+    align-self: self-end;
+}
+
+#intro .author img{
+    max-height: 100%;
+    max-width: 7rem;
+    object-fit: cover;
+}
+
+#intro .author span{
+    margin-right: 1rem;
 }

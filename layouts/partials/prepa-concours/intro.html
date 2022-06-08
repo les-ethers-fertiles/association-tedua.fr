@@ -1,0 +1,27 @@
+{{ if .Site.Data.prepaconcours.pcintro.enable }}
+{{ with .Site.Data.prepaconcours.pcintro }}
+<section id="intro">
+
+    <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">{{ .title |
+        markdownify }}
+    </h1>
+
+    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">{{ .description |
+        markdownify }}
+    
+    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">{{ .description |
+            markdownify }}
+    
+    <div class="author wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
+        <span>
+            Anne-Lucie Dumay<br>
+            Directrice de l'école<br>
+            et fondatrice de l'association Tedua
+        </span>
+        <img src="{{ "images/prepa-concours/anne-lu-belle-gosse.jpg" | relURL }}">
+    </div>
+
+</section>
+
+{{end}}
+{{end}}
