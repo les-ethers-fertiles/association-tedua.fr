@@ -2,11 +2,7 @@
 
 
 ################ Introduction #######################
-pcintro :
-  enable : true
-  image : "images/logo2.png"
-  title : "PROMO 2022/2023 : 'RECONNAITRE L'INTIME' "
-  description : " 'Ce programme de préparation aux concours d'entrée aux Ecoles d'Art Dramatique est d'abord le fruit des retrouvailles de deux amis vicéralement passionnés de théâtre : Simon Delgrange et Jonathan Dupui, les deux encadrants de la première promo (saison 2021-2022)................................................................'"
+
 
 
 ################# Tarifs et infos pratiques ################
