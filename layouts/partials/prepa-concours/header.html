@@ -6,16 +6,17 @@
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<div style="float: left">
+					<div class="title-block">
 						<a class="navbar-brand" href="{{ .Site.BaseURL }}">
-							<img class="img-responsive" src="{{ .Site.Params.logoprepaconcours | absURL }}"
-								alt="{{ .Site.Title }}">
+							<img class="img-responsive" src="{{ .Site.Params.logoprepaconcours | relURL }}"
+								alt="logo Tedua">
 						</a>
-						<div style="font-size:1.6rem;"> Formation à la préparation aux concours d'entrée <br>dans les Ecoles nationales
-							et régionales<br> d'Art Dramatique.
+						<div>
+							Formation à la préparation aux concours d'entrée<br>
+							des écoles supérieures d'art dramatique
 						</div>
-						<!-- petit br des familles en attendant ;-p-->
-						<br>
+					</div>
+					<div>
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 								data-target="#bs-example-navbar-collapse-1">
