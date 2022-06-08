@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "fr-fr"
 title = "une Discipline du Jeu"
 theme = "restaurant-hugo"
 summaryLength = "7"
@@ -81,8 +81,8 @@ weight = 9
 logo = "images/logo.png"
 logoprepaconcours = "images/logoprepaconcours.png"
 # meta data
-author = "association TeDua"
-description = "Site vitrine de TeDua, association qui accueille autour de la pratique du jeu de clown-théâtre."
+author = "association Tedua"
+description = "Site vitrine de Tedua, association qui accueille autour de la pratique du jeu de clown-théâtre."
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
