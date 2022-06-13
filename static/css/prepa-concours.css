@@ -80,15 +80,18 @@ section h1{
  */
 
 
+#intro, #programme-tarif, #engagement-mutuel, #témoignages{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
 
 #intro, #programme-tarif, #engagement-mutuel{
     display: flex;
     flex-direction: column;
 
     background-color: rgba(214, 174, 95, 0.9);
-    max-width: 70rem;
     padding: 2rem;
-    margin: 0 auto;
 }
 
 #intro, #programme-tarif{
@@ -185,4 +188,36 @@ section h1{
     margin-bottom: 1em;
     font-family: inherit;
     font-size: inherit;
+}
+
+
+
+
+#témoignages ul{
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) { 
+    #témoignages ul{
+        padding: 0;
+
+    }
+}
+
+#témoignages ul li{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(214, 174, 95, 0.9);
+}
+
+#témoignages ul li details{
+    cursor: pointer;
+}
+
+#témoignages ul li details > summary{
+    display: inline;
+}
+
+#témoignages ul li details:not([open]) summary::after{
+    content: '(...) ⬇';
 }
