@@ -168,7 +168,7 @@ section h1{
  * engagement-mutuel
  */
 
-.engagement-mutuel{
+#engagement-mutuel .texte{
     background-color: white;
     border: 1px solid #111;
     
@@ -184,12 +184,52 @@ section h1{
 
 
 
-.engagement-mutuel p{
+#engagement-mutuel .texte p{
     margin-bottom: 1em;
     font-family: inherit;
     font-size: inherit;
 }
 
+
+#engagement-mutuel ul.profs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#engagement-mutuel li{
+    flex:1;
+
+    padding: 2rem 0;
+    padding-right: 1.5rem;
+    
+    text-align: center;
+    line-height: initial;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#engagement-mutuel li:last-of-type{
+    padding-right: 0rem;
+
+}
+
+
+#engagement-mutuel li img{
+    max-width: 100%;
+
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 40rem) { 
+    #engagement-mutuel li img{
+        max-width: 14rem;
+    }
+}
 
 
 #témoignages{
@@ -212,7 +252,6 @@ section h1{
 @media (min-width: 40rem) { 
     #témoignages ul{
         padding: 0;
-
     }
 }
 

@@ -4,7 +4,22 @@
         Engagement mutuel
     </h1>
     
-    <div class="engagement-mutuel">
+    <div class="texte">
         {{ readFile "engagement-mutuel.md" | markdownify }}
     </div>
+
+    <ul class="profs">
+        <li>
+            <img src="{{ "images/prepa-concours/jo.jpg" | relURL }}">
+            <span>Jonathan Dupui</span>
+        </li>
+        <li>
+            <img src="{{ "images/prepa-concours/julie.jpg" | relURL }}">
+            <span>Julie Hercberg</span>
+        </li>
+        <li>
+            <img src="{{ "images/prepa-concours/simon.jpg" | relURL }}">
+            <span>Simon Delgrange</span>
+        </li>
+    </ul>
 </section>
