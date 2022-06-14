@@ -83,10 +83,6 @@ logoprepaconcours = "images/logoprepaconcours.png"
 # meta data
 author = "association Tedua"
 description = "Site vitrine de Tedua, association qui accueille autour de la pratique du jeu de clown-théâtre."
-# google analitycs ID
-google_analitycs_id = "Your ID"
-# copyright
-copyright = "Copyleft 2020 - Habib Belaribi - theme: Themefisher.com"
 
 # Preloader
 [params.preloader]
@@ -95,11 +91,7 @@ preloader = "" # use .png , .svg or .gif format
 
 ################################### Footer ############################
 [params.footer]
-enable = true
-contactInfoTitle = "CONTACT : "
-blogTitle = "BY JEAN'RTAR : "
-galleryTitle = "GALERIE : "
-socialTitle = "MÉDIAS SOCIAUX : "
+socialTitle = "MÉDIAS SOCIAUX"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
@@ -117,34 +109,3 @@ title="Email"
 icon = "fa fa-envelope"
 content = "diffusion@association-tedua.fr"
 
-######################### footer gallery
-[[params.footer.gallery]]
-image = "images/slider2/20_21_01.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider2/20_21_02.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider2/20_21_03.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider2/20_21_04.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider2/20_21_05.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider2/20_21_06.jpg"
-
-######################## Social Icon 
-[[params.footer.socialLink]]
-icon = "facebook"
-link = "https://www.facebook.com/groups/386241745191819/"
-
-[[params.footer.socialLink]]
-icon = "instagram"
-link = "https://www.instagram.com/anneluciedumay/?hl=en"
-
-#[[params.footer.socialLink]]
-#icon = "twitter"
-#link = "https://twitter.com/habsinn"
