@@ -80,7 +80,7 @@ section h1{
  */
 
 
-#intro, #programme-tarif, #engagement-mutuel, #témoignages{
+#intro, #programme-tarif, #engagement-mutuel{
     max-width: 70rem;
     margin: 0 auto;
 }
@@ -192,6 +192,18 @@ section h1{
 
 
 
+#témoignages{
+    background-color: #c19d55;
+    margin: 0;
+    width: 100%;
+    max-width: initial;
+}
+
+
+#témoignages > *{
+    max-width: 70rem;
+    margin: 0 auto;
+}
 
 #témoignages ul{
     padding: 1rem;
@@ -205,9 +217,9 @@ section h1{
 }
 
 #témoignages ul li{
-    padding: 0.5rem;
+    background-color: white;
+    padding: 1.5rem;
     margin-bottom: 1rem;
-    border: 1px solid rgba(214, 174, 95, 0.9);
 }
 
 #témoignages ul li details{
