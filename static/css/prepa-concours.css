@@ -1,7 +1,12 @@
  
 
-p, ul {
+p, ul, a, a:hover, a:visited, a:active, a:focus {
     font-size: 16px;
+    line-height: 1.2;
+}
+
+a{
+    color: #186515;
 }
 
 section{
@@ -80,13 +85,9 @@ section h1{
  */
 
 
-#intro, #programme-tarif, #engagement-mutuel{
+#intro, #programme-tarif, #engagement-mutuel, #inscription{
     max-width: 70rem;
     margin: 0 auto;
-}
-
-
-#intro, #programme-tarif, #engagement-mutuel{
     display: flex;
     flex-direction: column;
 
@@ -94,8 +95,13 @@ section h1{
     padding: 2rem;
 }
 
-#intro, #programme-tarif{
-    margin-bottom: 15rem;
+
+#intro, #programme-tarif, #engagement-mutuel{
+    margin-bottom: 10rem;
+}
+
+#inscription{
+    margin-bottom: 5rem;
 }
 
 
