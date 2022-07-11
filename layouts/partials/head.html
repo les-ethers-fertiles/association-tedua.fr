@@ -2,19 +2,20 @@
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
 
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
-  {{ "<!-- plugins -->" | safeHTML }}
+  <!-- plugins -->
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .URL | absURL }}">
+  <link rel="stylesheet" href="{{ .URL | relURL }}">
   {{ end }}
 
-  {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  {{- partial "layout-page-styles.html" . -}}
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | relURL }}" type="image/x-icon">
 
 </head>

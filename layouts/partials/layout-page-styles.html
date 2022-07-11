@@ -1,0 +1,23 @@
+{{/*
+    Inspiré de https://github.com/DavidBruant/front-end-template/blob/6b34fe1f75afd1dd2eae2ee14b1b964dfea949a9/_includes/layout-page-styles.html
+*/}}
+
+{{/*
+Styles are added based on the page.styles variable
+This variable is defined in front-matter with:
+
+---
+styles:
+    - href: "./yo.css"
+    - href: "./font-maybe.css"
+---
+
+Call the partial with a . for context:
+{{- partial "layout-page-styles.html" . -}}
+
+
+*/}}
+
+{{ range $style := .Params.styles }}
+<link crossorigin="anonymous" rel="stylesheet" href="{{ $style.href | relURL }}">
+{{ end }}

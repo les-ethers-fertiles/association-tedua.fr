@@ -23,7 +23,11 @@ pcintro :
   enable : true
   image : "images/logo2.png"
   title : "PROMO 2022/2023 : 'RECONNAITRE L'INTIME' "
-  description : " 'Ce programme de préparation aux concours d'entrée aux Ecoles d'Art Dramatique est d'abord le fruit des retrouvailles de deux amis vicéralement passionnés de théâtre : Simon Delgrange et Jonathan Dupui, les deux encadrants de la première promo (saison 2021-2022)................................................................' - Anne Lucie Dumay, Coordinatrice générale "
+  description : "« Il y a cinq ans, je transformais une association de recherche anthropologique en association culturelle, avec l’élan suivant : créer des espaces de rencontre pour travailler à plusieurs autour d’un sujet artistique. Toujours le même. L’autre.
+En ce sens, la formation de Tedua à la préparation aux concours est d’abord l’espace d’accueil de trois passionné.e.s d’Art Dramatique. Je les sais prêts à se mettre au service de celles et ceux qui se reconnaissent, comme eux, dans l’amour du jeu :
+Jonathan Dupui, en invitant à venir rencontrer sa discipline du jeu, Simon Delgrange, en partageant son expérience face à la technicité toute particulière de l’exercice des concours face à un jury, Julie Hercberg, en indiquant comment instaurer dans son quotidien le geste fondamental de la disponibilité au jeu.
+Je vous invite dans cet espace pour qu’à votre tour, vous partagiez cette expérience avec Julie, Simon et Jonathan : se soumettre à une discipline et exposer l’intime à un public. A vous d’accepter ce terrain de jeu. Amicalement » "
+  signature : "--ANNE LUCIE DUMAY, Coordinatrice générale--"
 
 
 ################# Tarifs et infos pratiques ################
@@ -47,7 +51,12 @@ pctarif:
     description: "Lorem ipsum..................................................................................."
     price : " "
 
-
+################### Le contrat ###################
+pcprofs :
+  enable : true
+  title : "Le contrat"
+  
+  
 ################### Témoignages des étudiants ###################
 pctemoignages :
   enable : true

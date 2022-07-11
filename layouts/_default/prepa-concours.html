@@ -1,15 +1,21 @@
 {{ define "main" }}
 
-        {{ partial "pcheader" . }}
-        
-	{{ partial "pcintro" . }}
-	
-	{{ partial "pctarif" . }}
-	
-	{{ partial "pcprofs" . }}
+    {{ partial "prepa-concours/header" . }}
+    
+	<div class="prepa-concours-background">
 
-	{{ partial "pccontact" . }}
+		{{ partial "prepa-concours/intro" . }}
+		
+		{{ partial "prepa-concours/tarif" . }}
 	
-	{{ partial "pctemoignages" . }}
+		{{ partial "prepa-concours/engagement-mutuel" }}
+	
+		{{ partial "prepa-concours/inscription" }}
+
+	</div>
+
+	{{ partial "prepa-concours/temoignages" . }}
+
+	{{ partial "prepa-concours/contact" . }}
 	
 {{ end }}

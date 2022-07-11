@@ -25,7 +25,7 @@
 										<div class="border-bottom"></div>
 										<span>{{.price}}</span>
 									</div>
-									<p>{{.description}}</p>
+									<p>{{.description | markdownify}}</p>
 								</div>
 							</li>
 							{{ end }}

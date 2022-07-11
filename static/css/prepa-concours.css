@@ -1,0 +1,286 @@
+ 
+
+p, ul, a, a:hover, a:visited, a:active, a:focus {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+a{
+    color: #186515;
+}
+
+section{
+    padding: 2rem;
+}
+
+section h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+    padding: 1.5rem 0;
+}
+
+.prepa-concours-background{
+    padding: 1rem;
+
+    background: url("../images/prepa-concours/fond-prepa-concours.jpg");
+    background-position: center center;
+
+}
+
+@media (min-width: 40rem) { 
+    .prepa-concours-background{
+        padding: 4rem;
+    }
+}
+
+
+
+/**
+ * Header
+ */
+
+.navigation {
+    /* override main.css styles */
+    top: 0;
+    padding-top: 1rem;
+
+    background: rgba(255, 255, 255, 0.89);
+
+    position: static; /* override main.css */
+}
+
+
+.navigation .container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .title-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.6rem;
+
+    padding-top: 1rem;
+}
+
+.navigation .title-block a.navbar-brand{
+    padding: 0;
+    padding-right: 1rem;
+}
+
+/* override main.css styles */
+.navigation .block{
+    background: inherit;
+}
+
+/**
+ * Intro
+ */
+
+
+#intro, #programme-tarif, #engagement-mutuel, #inscription{
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(214, 174, 95, 0.9);
+}
+
+
+#intro, #programme-tarif, #engagement-mutuel{
+    margin-bottom: 10rem;
+}
+
+#inscription{
+    margin-bottom: 5rem;
+}
+
+
+
+#intro .author{
+    align-self: flex-end;
+    text-align: right;
+
+    width: 100%;
+    height: 10rem;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+@media (min-width: 40rem) { 
+    #intro .author{
+        width: 50%;
+
+    }
+}
+
+#intro .author span{
+    align-self: self-end;
+}
+
+#intro .author img{
+    max-height: 100%;
+    max-width: 7rem;
+    object-fit: cover;
+}
+
+#intro .author span{
+    margin-right: 1rem;
+}
+
+
+
+/**
+ * Programme Tarif
+ */
+
+#programme-tarif{
+
+
+}
+
+#programme-tarif > p{
+    margin-bottom: 2rem;
+}
+
+#programme-tarif > ul{
+    margin-left: 2rem;
+}
+
+#programme-tarif > ul > li{
+    margin-bottom: 1rem;
+}
+#programme-tarif > ul strong{
+    display: block;
+}
+
+
+#programme-tarif > ul ul{
+    margin-left: 3rem;
+}
+
+
+
+/**
+ * engagement-mutuel
+ */
+
+#engagement-mutuel .texte{
+    background-color: white;
+    border: 1px solid #111;
+    
+    font-family: monospace;
+
+    padding: 2rem;
+
+    box-shadow: inset 1rem 1rem 2rem #aaa;
+
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+
+
+#engagement-mutuel .texte p{
+    margin-bottom: 1em;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+
+#engagement-mutuel ul.profs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#engagement-mutuel li{
+    flex:1;
+
+    padding: 2rem 0;
+    padding-right: 1.5rem;
+    
+    text-align: center;
+    line-height: initial;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#engagement-mutuel li:last-of-type{
+    padding-right: 0rem;
+
+}
+
+
+#engagement-mutuel li img{
+    max-width: 100%;
+
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 40rem) { 
+    #engagement-mutuel li img{
+        max-width: 14rem;
+    }
+}
+
+
+#témoignages{
+    background-color: #c19d55;
+    margin: 0;
+    width: 100%;
+    max-width: initial;
+    padding-bottom: 2rem;
+}
+
+
+#témoignages > *{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+#témoignages ul{
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) { 
+    #témoignages ul{
+        padding: 0;
+    }
+}
+
+#témoignages ul li{
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#témoignages ul li details{
+}
+
+#témoignages ul li details > summary{
+    cursor: pointer;
+    display: inline;
+}
+
+#témoignages ul li details:not([open]) summary::after{
+    content: '(...) ⬇';
+}
